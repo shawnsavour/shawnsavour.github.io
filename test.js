@@ -1,14 +1,13 @@
-let a = "";
-document.querySelectorAll('.pvs-list__paged-list-item').forEach(function(item) {
-    a += item.querySelector('.mr1 span').innerText;
-    a += ' | ';
-    a += item.querySelector('img').src;
-    a += ' | ';
-    try{
-        a += item.querySelector('.pv2 a').href
-    } catch (e){
-        a += '#'
-    }
-    a += ' \n';
-});
-console.log(a)
+// loop 10000 times
+var url = 'https://visitcount.itsvg.in/api?id=shawnsavour&icon=3&color=6';
+// fetech the url but sleep 0.5s each time
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+for (var i = 0; i < 10000; i++) {
+    fetch(url);
+    await sleep(10);
+    console.log("await");
+}
+    

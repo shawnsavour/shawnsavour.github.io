@@ -1501,7 +1501,7 @@ input {
 
 #imprimir,
 #imprimir2 {
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(20px);
     min-height: 168.1779527559rem;
     width: 119.0551181102rem;
