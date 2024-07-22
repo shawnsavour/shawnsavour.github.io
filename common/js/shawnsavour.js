@@ -172,11 +172,11 @@ function printDiv() {
   let originalContents = document.body.innerHTML;
   document.body.innerHTML = printContents;
   document.body.classList.add('print-setting');
-  // setTimeout(function () {
-  //     window.print();
-  // }, 1000);
-  // setTimeout(function () {
-  //     document.body.innerHTML = originalContents;
-  //     document.body.classList.remove('print-setting');
-  // }, 5000);
+  setTimeout(function () {
+      window.print();
+  }, 1000);
+  setTimeout(function () {
+      document.body.innerHTML = originalContents;
+      document.body.classList.remove('print-setting');
+  }, 5000);
 } 

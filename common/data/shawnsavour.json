@@ -227,7 +227,7 @@
     {
       "category": "infras-tools",
       "name": "Platform",
-      "items": ["Terraform", "Terragrunt", "Packer", "Ansible", "CloudFormation", "Proxmox", "Ceph"],
+      "items": ["Terraform", "Terragrunt", "Packer", "Ansible", "Ceph", "CloudFormation", "Proxmox"],
       "extraclass": "li25"
     },
     {

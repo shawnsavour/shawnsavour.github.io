@@ -3670,6 +3670,9 @@ a {
         margin-top: 0;
     }
 
+    body, html {
+        background: #fff;
+    }
     
         
 }
@@ -3681,4 +3684,19 @@ a {
 
 .print-setting .break-wrapper {
     display: block!important;
+}
+
+.print-setting #imprimir,
+.print-setting #imprimir2 {
+    box-shadow: none;
+}
+
+html:has(body.print-setting) {
+    background: #fff;
+    transition: none;
+}
+
+body.print-setting {
+    background: #fff;
+    transition: none;
 }
