@@ -1,0 +1,4 @@
+sandbox
+*.bak.*
+.idea
+.vscode

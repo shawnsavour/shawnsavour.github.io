@@ -26,6 +26,13 @@ img {
     max-width: 100%;
 }
 
+
+
+.inline-block-holder {
+    vertical-align: top;
+    display: inline-block;
+}
+
 .prog-item {
     font-size: 1.25rem;
     border-radius: 25px;
@@ -334,6 +341,10 @@ li {
 .li75 {
     width: 75%;
     padding-left: 1rem;
+}
+
+.li80 {
+    width: 80%
 }
 
 .li100 {
@@ -1483,6 +1494,10 @@ input {
     position: relative;
     transition: opacity .5s ease;
     transition-delay: 1s
+}
+
+.print-setting *:hover {
+    all:unset!important;
 }
 
 .print-setting #imprimir,
@@ -2655,6 +2670,7 @@ canvas {
 
 #experiencialaboral,
 #formacionacademica,
+#section-educations,
 #simple_list1,
 #simple_list2 {
     margin-bottom: -1rem
@@ -2777,6 +2793,7 @@ canvas {
 
 #datospersonales .titulo3,
 #experiencialaboral .titulo3,
+#section-educations .titulo3,
 #formacionacademica .titulo3 {
     margin-top: -.4rem
 }
@@ -2800,6 +2817,7 @@ canvas {
 }
 
 #experiencialaboral .titulo3,
+#section-educations .titulo3,
 #formacionacademica .titulo3 {
     width: fit-content;
     display: inline-block;
@@ -3568,12 +3586,8 @@ a {
     /*Firefox*/
 }
 
-@media print {
-    @page {
-        size: a4;
-        margin: 0;
-    }
-}
+
+
 
 .fab {
     z-index: 9999;
@@ -3636,4 +3650,35 @@ a {
     display: inline-block;
     transform: translateY(15%);
     -webkit-transform: translateY(15%);
+}
+
+{{/* disable all hover when body have class print-setting  */}}
+.print-setting * {
+    pointer-events: none;
+}
+
+@media print {
+    @page {
+        size: a4;
+        margin-top: 2cm;
+        margin-bottom: 2cm;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    @page :first {
+        margin-top: 0;
+    }
+
+    
+        
+}
+
+.print-setting .break-print {
+    break-inside: avoid!important;
+    page-break-inside: avoid!important;
+}
+
+.print-setting .break-wrapper {
+    display: block!important;
 }

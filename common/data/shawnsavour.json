@@ -1,0 +1,321 @@
+{
+  "name": "SON (SHAWN) CONG DO",
+  "title": "Platform/DevSecOps Engineer",
+  "phone": "096 96 69 531",
+  "portfolios": [{
+      "type": "Credly",
+      "name": "Credly Badge",
+      "link": "https://www.credly.com/users/son-do.1460d18d/badges/",
+      "icon": "bi bi-c-circle-fill"
+    },
+    {
+      "type": "LinkedIn",
+      "name": "congson99",
+      "link": "https://www.linkedin.com/in/congson99/",
+      "icon": "bi bi-linkedin"
+    },
+    {
+      "type": "Github",
+      "name": "shawnsavour",
+      "link": "https://github.com/shawnsavour",
+      "icon": "bi bi-github"
+    },
+    {
+      "type": "Website",
+      "name": "ShawnSavour.github.io",
+      "link": "https://shawnsavour.github.io",
+      "icon": "bi bi-globe"
+    }
+  ],
+  "email": "sondc.workspace@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/congson99/",
+  "github": "https://github.com/shawnsavour",
+  "workExperience": [{
+      "position": "Senior Platform Engineer",
+      "employer": "Zuellig Pharma",
+      "date": "Oct 2023 - Present · 10 mos",
+      "description": [
+        "Zuellig Pharma, Asia's healthcare leader for over a century, provides top-notch distribution and services to expand healthcare access across 16 markets. They partner with top pharma companies, serving over 200,000 medical facilities.",
+        "Objective:",
+        "The objective is to modernize cloud infrastructure by migrating from Azure to GCP with Kubernetes Engine for orchestration. This transition will implement best practices for organization and security (Fabric FAST, GKE best practices, GitOps) and leverage CloudSQL with Workload Identity for secure databases. An IaC pipeline will automate infrastructure management.",
+        "Responsibilities:",
+        "• Design and implement a secure and scalable cloud infrastructure on Google Cloud Platform",
+        "• Network design and implementation for hybrid cloud environment with Spoke and Hub model",
+        "• Migrate all the infrastructure from Azure to Google Cloud",
+        "• Set up and maintain the Kubernetes system",
+        "• Implement best practice Organization model using Fabric FAST",
+        "• Implement security best practices to the GKE system",
+        "• Migrate and implement security with GitOps from AKS to GKE",
+        "• Provision CloudSQL and implement SQLproxy with Workload Identity Authentication methods to provide secured connection to the databases.",
+        "• Setup pipeline for IaC"
+      ]
+    },
+    {
+      "position": "Senior DevOps Engineer",
+      "employer": "VMO Group",
+      "date": "Aug 2022 - Oct 2023 · 1 yr 3 mos",
+      "description": [
+        "VMO Group is an outsourcing company that provides software development and IT services to clients across various industries.",
+        "As a DevOps engineer at VMO Group, my main role was to create and maintain dev environments for all Delivery Units in the company, using various technologies and best practices.",
+        "• Set up and maintained a robust and secure on-premise Kubernetes system for deploying and managing containerized applications",
+        "• Implemented a Ceph storage system to provide scalable and reliable storage for the Kubernetes clusters",
+        "• Installed and configured Gitlab system to enable version control, continuous integration, and continuous delivery for the development teams",
+        "• Integrated Gitlab dynamic runner system used IaC tools to manage Gitlab runner system with GitOps, which is a methodology that applies the principles of version control and automation to the entire software delivery pipeline to improve the efficiency, reliability, and security of the software delivery process at VMO Group",
+        "• Provision and manage the Proxmox system, which is a virtualization platform that allows running multiple operating systems on a single host"
+      ]
+    },
+    {
+      "position": "Senior DevOps Engineer",
+      "employer": "BB Digital",
+      "date": "Feb 2023 - Present · 1 yr 6 mos",
+      "description": [
+        "This role is responsible for securing and streamlining the company's software development and operations processes.",
+        "Responsibilities:",
+        "• Implement DevSecOps best practices throughout the software development lifecycle, utilizing tools like Vault Warden, Gitlab CI/ArgoCD, Terraform, KEDA/Kapenter, Hashicorp Vault/OPA GateKeeper, and Snyk/Sonarqube/Trivy/ZAP Operator to automate security tasks.",
+        "• Monitor system performance and health using logging (Promtail, Loki, Grafana), tracing (ElasticSearch, Jaeger), and monitoring (Prometheus).",
+        "• Utilize Automation WAF to automatically deploy and manage AWS WAF rules, safeguarding the company's web applications from common attacks."
+      ]
+    },
+    {
+      "position": "Senior DevSecOps Engineer",
+      "employer": "BICBank Cambodia",
+      "date": "Jan 2023 - Feb 2024 · 1 yr 2 mos",
+      "description": [
+        "Led a comprehensive cloud migration to AWS for BIC Bank Cambodia, transforming their on-premises infrastructure for increased scalability, agility, and cost-efficiency.",
+        "Technical Approach:",
+        "• Migrate all on-premises banking platforms to AWS with a re-architect strategy",
+        "• Design and implement landing zones for organizations with IAM Identity Central Active Directory",
+        "• Design and implement hub and spoke hybrid network model",
+        "• Implement Site to Site VPN and Software VPN with SSO Active Directory with Pritunl Enterprise",
+        "• Implement all underlying infrastructure as EKS, RDS serverless, DynamoDB ...",
+        "• Implement centralized security and monitoring in shared-service EKS cluster with Hashicorp Vault high availability, Prometheus with Thanos Multi cluster pattern.",
+        "• Implement secret rotation and injection with Hashicorp Vault Injector high availability, directly pass secrets into the pod without storing them as secrets inside the cluster.",
+        "• Implement distro-less images with smaller size, faster deployments, and potentially improved security.",
+        "• Implement Istio gateway and service mesh with strict mTLS between microservices.",
+        "• Implement Gitlab for 5000 users with hybrid architecture",
+        "• Integrate GitLab dynamic runner system with GitOps managed declarative config",
+        "• Implement a centralized pipeline template with many security layers in the pipeline, including SAST and SCA with Sonarqube, Trivy, Snyk, Docker Scout, ...and DAST with OWASP ZAP",
+        "• Implement policy enforcement with Open Policy Agent GateKeeper with Centralized Policy Management, Admission Control Integration, Enforcing Best Practices and Compliance Enforcement to comply with internal security policies or external regulatory requirements (e.g., PCI-DSS, HIPAA)",
+        "• Implement Security Automations for AWS WAF rules to protect your web applications from common attacks with Automation WAF (anti DDoS, Web Scan, XSS/SQL injection, Bot and IP restriction, ...)"
+      ]
+    },
+    {
+      "position": "Senior DevSecOps Engineer",
+      "employer": "Onqlave",
+      "date": "Jun 2023 - Sep 2023 · 4 mos",
+      "description": [
+        "As a DevSecOps engineer at OQL Company in Australia, I am responsible for ensuring the security and reliability of the company's Encryption as a Service platform on Google Cloud Platform. I work in a fully secured environment and use a landing zone approach with Google Cloud Foundation Fabric.",
+        "My responsibilities include:",
+        "• Implementing and managing DevSecOps best practices throughout the software development lifecycle, from code development to deployment and operations.",
+        "• Using Google Cloud Platform security tools and services to protect the company's infrastructure, data, and applications.",
+        "• Configuring and managing Google Cloud Foundation Fabric to create a secure landing zone for the Encryption as a Service platform.",
+        "• Working with other engineers to automate security tasks and integrate security into the company's development and operations processes.",
+        "• Monitoring the performance and security of the Encryption as a Service platform and responding to incidents promptly.",
+        "I am a highly skilled and experienced DevSecOps engineer with a deep understanding of Google Cloud Platform security tools and services. I am also passionate about DevSecOps and am committed to delivering secure and reliable software."
+      ]
+    },
+    {
+      "position": "Senior DevSecOps Engineer",
+      "employer": "Dentity",
+      "date": "Dec 2022 - Sep 2023 · 10 mos",
+      "description": [
+        "Dentity is a platform that enables consumers and businesses to more easily and safely share their identity data. It provides secure and scalable authentication and authorization services for web and mobile applications.",
+        "Dentity System leverages the best practices and tools of DevSecOps to ensure the highest level of security and performance throughout the software development lifecycle.",
+        "As a sole DevSecOps engineer working on Dentity System, I am responsible for integrating security into the development and operations processes. Some of the tasks that I perform include:",
+        "• Manage project-evel secrets using Vault Warden",
+        "• Automate the deployment of your applications to AWS EKS clusters using fully managed by GitOps with Gitlab CI and ArgoCD",
+        "• Infrastructre as Code (IAC) to improve the scalability, availability, security, and performance of the infrastructure by following best practices such as version control, modularization, testing, and monitoring using Terraform.",
+        "• Autoscale the EKS clusters with KEDA and Kapenter",
+        "• Manage your secrets and rotate secrets securely with Hashicorp Vault and enforce policies with OPA GateKeeper",
+        "• Passwordless and credential-less design pattern to connect to a database or other AWS resources without storing or passing any passwords or credentials.",
+        "• SAST and DAST scan IAC and Application code for vulnerabilities with Snyk, Sonarqube, Trivy and ZAP operator",
+        "• Monitor the performance and health of your system with logging (Promtail, loki, grafana), tracing (ElasticSearch, Jaeger), and monitoring (Prometheus)",
+        "• Automatically deploys and manages AWS WAF rules to protect your web applications from common attacks with Automation WAF (anti DDoS, Web Scan, XSS/SQL injection, Bot and IP restriction, ...)",
+        "By following the DevSecOps approach, I help Dentity System deliver secure and reliable identity services to its customers while maintaining agility and innovation in AWS."
+      ]
+    },
+    {
+      "position": "DevOps Engineer",
+      "employer": "GEM - Global Enterprise Mobility",
+      "date": "Sep 2022 - Dec 2022 · 4 mos",
+      "description": [
+        "Built a logging and tracing system on AWS to monitor and troubleshoot the performance and health of their applications",
+        "• Used Fluent Bit to collect and forward logs from various sources to Loki",
+        "• Used Loki to store and query the logs in a scalable and cost-effective way",
+        "• Used Grafana to visualize and analyze the logs and metrics from Loki and other sources",
+        "• Used OpenTelemetry to instrument and collect traces from the applications",
+        "• Used AWS X-Ray to store and visualize the traces and identify bottlenecks and errors",
+        "• Used CloudFormation to provision and manage the AWS resources for the logging and tracing system",
+        "• Used HashiCorp Packer to create and configure custom AMIs for the EC2 instances running the applications"
+      ]
+    },
+    {
+      "position": "C# Software Engineer",
+      "employer": "Saltlux (솔트룩스)",
+      "date": "Oct 2021 - Jul 2022 · 10 mos",
+      "description": [
+        "Personal Agent Desktop: Part of the Personal Agent project, personalized data mining, using resources from the user's own computer. Personal Agent desktop is in the presentation layer to manage the collected data, statistics and all source to collect of user. (hybrid app with Personal Agent web with more personal functions)",
+        "Personal Agent windows services: Part of the Personal Agent project, personalized data mining, using resources from the user's own computer. The windows service will be responsible for checking the collection schedule and conducting highly personalized data collection."
+      ]
+    },
+    {
+      "position": "DevOps Engineer",
+      "employer": "Saltlux (솔트룩스)",
+      "date": "Aug 2021 - Jul 2022 · 1 yr",
+      "description": [
+        "• Used Google Kubernetes Engine (GKE) to deploy and manage a crawler system with 800 nodes on Google Cloud Platform (GCP)",
+        "• Used Kafka to stream and process large amounts of data from the crawler system",
+        "• Used Redis to store and access data in memory for fast performance",
+        "• Used MongoDB to store and query structured and unstructured data",
+        "• Used Loki, Promtail, and Grafana to monitor and visualize the logs and metrics of the crawler system and other components",
+        "• Used best practices and tools to automate, secure, and optimize the DevOps workflow on GCP"
+      ]
+    },
+    {
+      "position": "Javascript Engineer",
+      "employer": "Saltlux (솔트룩스)",
+      "date": "Aug 2021 - Jul 2022 · 1 yr",
+      "description": [
+        "Account control extension: Chromium-core extension for obtaining account-based cookies for the collection of data that requires login authentication such as social networks. Collect facebook full access token of account.",
+        "Personal Agent web-frontend: Part of the Personal Agent project, personalized data mining, using resources from the user's own computer. Personal Agent web-frontend is in the application layer to manage the collected data, statistics and all source to collect of user.",
+        "Blocking paywall extension: Chromium-core extension for blocking the payment required in some Newspaper (for data collection module)"
+      ]
+    },
+    {
+      "position": "Java Software Engineer",
+      "employer": "Saltlux (솔트룩스)",
+      "date": "Jun 2021 - Jul 2022 · 1 yr 2 mos",
+      "description": [
+        "Backend modules:",
+        "• All about Data Extraction module (Worker, manager, queue, document parser, ...): Collecting all kinds of data on social networks on demand. Manage the workers to collect. Data stored at MongoDB and managed data at Postgree. Workers, using http, selenium depend on Rule template sepecified, are given the option to use proxies to avoid problems with blocking requests.",
+        "• Realtime metasearch: Quickly search results related to keywords on search systems. Handles blocking requests (Redis cache, autohealing), automatically scaling according to requests received and resources used.",
+        "• Personal Agent web-backend: Part of the Personal Agent project, personalized data mining, using resources from the user's own computer. Personal Agent web is in the application layer to manage the collected data, statistics and all source to collect of user."
+      ]
+    },
+    {
+      "position": "Python Engineer",
+      "employer": "Saltlux (솔트룩스)",
+      "date": "May 2021 - Jul 2022 · 1 yr 3 mos",
+      "description": [
+        "Internal Software:",
+        "• Accounts Helper Application (windows application):",
+        "• Auto check and update status of cookie/token.",
+        "• Get cookies and api tokens on a large number of accounts automatically.",
+        "• Auto create accounts and get account info to crawl data (social network).",
+        "• Automate all work if possible in the business."
+      ]
+    }
+  ],
+  "skills": [{
+      "category": "programming",
+      "name": "Programming Languages",
+      "items": ["Java", "NodeJS", "Golang", "Python", "C#"],
+      "extraclass": "li25"
+    },
+    {
+      "category": "cloud-platforms",
+      "name": "Cloud Platforms",
+      "items": ["AWS", "Azure", "GCP"],
+      "extraclass": "li25"
+    },
+    {
+      "category": "database",
+      "name": "Database",
+      "items": ["MySQL", "MariaDB", "MongoDB", "SQLite", "Postgres", "Redis", "Kafka"],
+      "extraclass": "li50"
+    },
+    {
+      "category": "infras-tools",
+      "name": "Platform",
+      "items": ["Terraform", "Terragrunt", "Packer", "Ansible", "CloudFormation", "Proxmox", "Ceph"],
+      "extraclass": "li25"
+    },
+    {
+      "category": "cicd-tools",
+      "name": "CI/CD",
+      "items": ["Gitlab CI", "ArgoCD", "Jenkins", "TravisCI", "Github Actions"],
+      "extraclass": "li25"
+    },
+    {
+      "category": "observability-tools",
+      "name": "Observability",
+      "items": ["Promtail-Loki-Grafana", "Elasticsearch-Loki-Grafana", "Prometheus-Thanos", "Jaeger", "DataDog", "NewRelic"],
+      "extraclass": "li50"
+    },
+    {
+      "category": "security",
+      "name": "Security",
+      "items": ["Vault Warden", "Hashicorp Vault", "OPA GateKeeper", "Snyk", "Sonarqube", "Trivy", "ZAP Operator", "Checkpoint CloudGuard", "AWS WAF", "Automation WAF"],
+      "extraclass": "li66"
+    },
+    {
+      "category": "container-tools",
+      "name": "Container Tools",
+      "items": ["Docker", "Kubernetes", "Helm", "KEDA", "Kapenter", "Istio", "Knative"],
+      "extraclass": "li33"
+    }
+    
+  ],
+  "certifications": {
+    "title": "Certifications",
+    "description": "Click to see more certifications",
+    "link": "https://www.linkedin.com/in/congson99/details/certifications/",
+    "items": [{
+        "name": "Hands-on Introduction to Linux Commands and Shell Scripting",
+        "image": "common/img/IBM-icon.jpg",
+        "link": "https://www.coursera.org/account/accomplishments/certificate/422PU7KZFHLT"
+      },
+      {
+        "name": "Introduction to Agile Development and Scrum",
+        "image": "common/img/IBM-icon.jpg",
+        "link": "https://coursera.org/share/2a3c23dc37711a3c9dd10b051e8a0dc5"
+      },
+      {
+        "name": "Introduction to Cloud Computing",
+        "image": "common/img/IBM-icon.jpg",
+        "link": "https://coursera.org/share/3bdfa2ce967f0c78664be16fe6eae31a"
+      },
+      {
+        "name": "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
+        "image": "common/img/IBM-icon.jpg",
+        "link": "https://coursera.org/share/36209edd9e5e10401a6e7030d2426fe5"
+      },
+      {
+        "name": "Introduction to DevOps",
+        "image": "common/img/IBM-icon.jpg",
+        "link": "https://coursera.org/share/2b4af5fc206815779a8db424c478591c"
+      },
+      {
+        "name": "Google Cloud Fundamentals: Core Infrastructure",
+        "image": "common/img/Google-icon.jpg",
+        "link": "https://www.coursera.org/account/accomplishments/certificate/VEBM4EY9H969"
+      },
+      {
+        "name": "Python For Data Analysis, Data Science & ML With Pandas",
+        "image": "common/img/Udemy-icon.jpg",
+        "link": "https://ude.my/UC-6dbad681-7f62-4160-b2f0-b3890cf63984/"
+      },
+      {
+        "name": "SQL Bootcamp with MySQL, PHP & Python : 5 Courses in 1",
+        "image": "common/img/Udemy-icon.jpg",
+        "link": "https://www.ude.my/UC-9fb7122d-629b-4651-b6c3-6fd8cf711502/"
+      },
+      {
+        "name": "APTIS - C level (CERF)",
+        "image": "common/img/BC-icon.jpg",
+        "link": "#"
+      }
+    ]
+  },
+  "education": [{
+      "degree": "International Business Economics",
+      "school": "Foreign trade university",
+      "date": "Aug 2017 - Mar 2021"
+    },
+    {
+      "degree": "Physics Major",
+      "school": "Thainguyen high school for the gifted",
+      "date": "Aug 2015 - Jun 2017"
+    }
+  ]
+}
