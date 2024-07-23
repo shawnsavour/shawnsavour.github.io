@@ -11,8 +11,8 @@
     },
     {
       "type": "LinkedIn",
-      "name": "congson99",
-      "link": "https://www.linkedin.com/in/congson99/",
+      "name": "shawndo",
+      "link": "https://www.linkedin.com/in/shawndo",
       "icon": "bi bi-linkedin"
     },
     {
@@ -29,7 +29,7 @@
     }
   ],
   "email": "sondc.workspace@gmail.com",
-  "linkedin": "https://www.linkedin.com/in/congson99/",
+  "linkedin": "https://www.linkedin.com/in/shawndo",
   "github": "https://github.com/shawnsavour",
   "workExperience": [{
       "position": "Senior Platform Engineer",
@@ -234,7 +234,7 @@
     {
       "category": "cicd-tools",
       "name": "CI/CD",
-      "items": ["Gitlab CI", "ArgoCD", "Jenkins", "TravisCI", "Github Actions"],
+      "items": ["Gitlab CI", "ArgoCD", "Jenkins", "TravisCI", "Github Actions", "Azure Pipeline"],
       "extraclass": "li25"
     },
     {
@@ -269,7 +269,7 @@
       {
         "name": "DevOps on AWS Specialization",
         "image": "common/img/Udemy-icon.jpg",
-        "link": "https://coursera.org/share/4d7e300dc13fae923d7e295b97620b04"
+        "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/ZDRLWB4QQ7XH"
       },
       {
         "name": "Core Infrastructure",
