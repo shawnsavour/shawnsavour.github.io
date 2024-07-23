@@ -2,6 +2,7 @@
   "name": "SON (SHAWN) CONG DO",
   "title": "Platform/DevSecOps Engineer",
   "phone": "096 96 69 531",
+  "perfil": "With over 5 years of experience in DevSecOps, I bring a proven track record of success in leading cloud migrations, implementing industry-standard DevSecOps practices, and automating security tasks across diverse environments. I possess a deep understanding of security tools and services on major cloud platforms (AWS, Azure, GCP) and a passion for delivering secure, reliable, and scalable software.</br> My expertise extends beyond security to encompass infrastructure and automation. I'm proficient in tools like Terraform, Kubernetes, and Packer, allowing me to design and manage secure and scalable infrastructure. Additionally, I leverage infrastructure as code (IaC) best practices for version control, modularity, testing, and monitoring.</br> I champion GitOps methodologies for streamlined application deployments. From managing project-level secrets with Vault Warden to deploying applications with Gitlab CI and ArgoCD, I ensure efficient and secure delivery pipelines.</br> Security is paramount. I integrate security throughout the software development lifecycle (SDLC) with a comprehensive toolkit. This includes tools like Hashicorp Vault, OPA Gatekeeper, Snyk, and Sonarqube for secret management, policy enforcement, and vulnerability scanning. My commitment extends to monitoring system performance and health with logging, tracing, and monitoring tools.</br> I possess a well-rounded skillset that includes network concepts. My experience includes designing and implementing hybrid cloud environments with Spoke and Hub models, ensuring secure communication between different components.</br> I am confident that my skills and experience can contribute significantly to your organization's success.",
   "portfolios": [{
       "type": "Credly",
       "name": "Credly Badge",
@@ -261,44 +262,34 @@
     "description": "Click to see more certifications",
     "link": "https://www.linkedin.com/in/congson99/details/certifications/",
     "items": [{
-        "name": "Hands-on Introduction to Linux Commands and Shell Scripting",
+        "name": "IBM DevOps and Software Engineering Specialization",
         "image": "common/img/IBM-icon.jpg",
-        "link": "https://www.coursera.org/account/accomplishments/certificate/422PU7KZFHLT"
+        "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/GZLCQK9NM36N"
       },
       {
-        "name": "Introduction to Agile Development and Scrum",
-        "image": "common/img/IBM-icon.jpg",
-        "link": "https://coursera.org/share/2a3c23dc37711a3c9dd10b051e8a0dc5"
+        "name": "DevOps on AWS Specialization",
+        "image": "common/img/Udemy-icon.jpg",
+        "link": "https://coursera.org/share/4d7e300dc13fae923d7e295b97620b04"
       },
       {
-        "name": "Introduction to Cloud Computing",
-        "image": "common/img/IBM-icon.jpg",
-        "link": "https://coursera.org/share/3bdfa2ce967f0c78664be16fe6eae31a"
-      },
-      {
-        "name": "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
-        "image": "common/img/IBM-icon.jpg",
-        "link": "https://coursera.org/share/36209edd9e5e10401a6e7030d2426fe5"
-      },
-      {
-        "name": "Introduction to DevOps",
-        "image": "common/img/IBM-icon.jpg",
-        "link": "https://coursera.org/share/2b4af5fc206815779a8db424c478591c"
-      },
-      {
-        "name": "Google Cloud Fundamentals: Core Infrastructure",
+        "name": "Core Infrastructure",
         "image": "common/img/Google-icon.jpg",
         "link": "https://www.coursera.org/account/accomplishments/certificate/VEBM4EY9H969"
+      },
+      {
+        "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+        "image": "common/img/IBM-icon.jpg",
+        "link": "https://www.coursera.org/account/accomplishments/certificate/R7WJJKU5U4GD"
+      },
+      {
+        "name": "Python for Data Science and AI",
+        "image": "common/img/IBM-icon.jpg",
+        "link": "https://www.credly.com/badges/59286e28-5fd4-40d4-877a-797385dc4014/linked_in_profile"
       },
       {
         "name": "Python For Data Analysis, Data Science & ML With Pandas",
         "image": "common/img/Udemy-icon.jpg",
         "link": "https://ude.my/UC-6dbad681-7f62-4160-b2f0-b3890cf63984/"
-      },
-      {
-        "name": "SQL Bootcamp with MySQL, PHP & Python : 5 Courses in 1",
-        "image": "common/img/Udemy-icon.jpg",
-        "link": "https://www.ude.my/UC-9fb7122d-629b-4651-b6c3-6fd8cf711502/"
       },
       {
         "name": "APTIS - C level (CERF)",
@@ -311,11 +302,6 @@
       "degree": "International Business Economics",
       "school": "Foreign trade university",
       "date": "Aug 2017 - Mar 2021"
-    },
-    {
-      "degree": "Physics Major",
-      "school": "Thainguyen high school for the gifted",
-      "date": "Aug 2015 - Jun 2017"
     }
   ]
 }

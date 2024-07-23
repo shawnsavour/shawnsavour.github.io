@@ -2804,6 +2804,10 @@ canvas {
     width: calc(100% - 1.5rem)
 }
 
+#section-description {
+    margin-top: 1.5rem
+}
+
 #perfil .texto {
     margin-top: -.5rem
 }
@@ -3668,13 +3672,7 @@ a {
 
     @page :first {
         margin-top: 0;
-    }
-
-    body, html {
-        background: #fff;
-    }
-    
-        
+    }   
 }
 
 .print-setting .break-print {
@@ -3700,3 +3698,4 @@ body.print-setting {
     background: #fff;
     transition: none;
 }
+

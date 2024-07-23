@@ -1,3 +1,11 @@
+function createPerfilsHtml(data) {
+  return `
+  <p class="texto" contenteditable="false"
+  placeholder="Write here a paragraph about yourself or you can change the title to read 'Objective'."
+  style=" text-align: justify;">${data.perfil}</p>
+  `
+}
+
 function createIntroHtml(data) {
   return `
   <!-- <li class="li27" id="foto" style="display: block;"> <label for="inputfoto2"
@@ -158,6 +166,7 @@ window.onload = function () {
   fetch('common/data/shawnsavour.json').then(response => {
       return response.json()
   }).then(data => {
+      document.querySelector('#perfil').innerHTML = createPerfilsHtml(data)
       document.querySelector('#contimprimir #section-intro').innerHTML = createIntroHtml(data)
       document.querySelector('#section-skills').innerHTML = createSkillsHtml(data)
       document.querySelector('#section-certifications').innerHTML = createCertificationsHtml(data)
