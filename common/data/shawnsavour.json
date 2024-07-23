@@ -199,11 +199,33 @@
       "date": "May 2021 - Jul 2022 · 1 yr 3 mos",
       "description": [
         "Internal Software:",
-        "• Accounts Helper Application (windows application):",
-        "• Auto check and update status of cookie/token.",
+        "• Social Accounts Manager (windows application):",
         "• Get cookies and api tokens on a large number of accounts automatically.",
         "• Auto create accounts and get account info to crawl data (social network).",
         "• Automate all work if possible in the business."
+      ]
+    },
+    {
+      "position": "METI Government of JAPAN, Internship Program (経済産業省　国際化促進インターンシップ事業)",
+      "employer": "GRAVITY Corporation (グラビティ株式会社)",
+      "date": "Dec 2020 - Feb 2021 · 3 mos",
+      "description": [
+        "This internship was approved by the METI Japan Internship program, organized by METI Government of Japan",
+        "• Acquired knowledge about Blockchain, Web 3.0, Smart contract through internal training conferences",
+        "• Learned deeply about Scrum and Agile software development methods.",
+        "• Worked under the supervision of CTO",
+        "• Contributed to the company's first product in the education sector"
+      ]
+    },
+    {
+      "position": "PHP Web Developer",
+      "employer": "WeSports",
+      "date": "Apr 2019 - Jun 2020 · 1 yr 3 mos",
+      "description": [
+        "•  Worked with Wordpress to create and maintain dynamic websites and web applications",
+        "•  Deployed Wordpress on Apache servers and used jQuery for front-end interactivity",
+        "•  Developed software solutions using PHP frameworks, SQL databases, and object-oriented programming",
+        "•  Used Git for version control and collaboration"
       ]
     }
   ],
