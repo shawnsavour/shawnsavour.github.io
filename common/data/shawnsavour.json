@@ -151,15 +151,6 @@
       ]
     },
     {
-      "position": "C# Software Engineer",
-      "employer": "Saltlux (솔트룩스)",
-      "date": "Oct 2021 - Jul 2022 · 10 mos",
-      "description": [
-        "Personal Agent Desktop: Part of the Personal Agent project, personalized data mining, using resources from the user's own computer. Personal Agent desktop is in the presentation layer to manage the collected data, statistics and all source to collect of user. (hybrid app with Personal Agent web with more personal functions)",
-        "Personal Agent windows services: Part of the Personal Agent project, personalized data mining, using resources from the user's own computer. The windows service will be responsible for checking the collection schedule and conducting highly personalized data collection."
-      ]
-    },
-    {
       "position": "DevOps Engineer",
       "employer": "Saltlux (솔트룩스)",
       "date": "Aug 2021 - Jul 2022 · 1 yr",
@@ -170,6 +161,15 @@
         "• Used MongoDB to store and query structured and unstructured data",
         "• Used Loki, Promtail, and Grafana to monitor and visualize the logs and metrics of the crawler system and other components",
         "• Used best practices and tools to automate, secure, and optimize the DevOps workflow on GCP"
+      ]
+    },
+    {
+      "position": "C# Software Engineer",
+      "employer": "Saltlux (솔트룩스)",
+      "date": "Oct 2021 - Jul 2022 · 10 mos",
+      "description": [
+        "Personal Agent Desktop: Part of the Personal Agent project, personalized data mining, using resources from the user's own computer. Personal Agent desktop is in the presentation layer to manage the collected data, statistics and all source to collect of user. (hybrid app with Personal Agent web with more personal functions)",
+        "Personal Agent windows services: Part of the Personal Agent project, personalized data mining, using resources from the user's own computer. The windows service will be responsible for checking the collection schedule and conducting highly personalized data collection."
       ]
     },
     {
