@@ -2,7 +2,7 @@
   "name": "SON (SHAWN) CONG DO",
   "title": "Platform/DevSecOps Engineer",
   "phone": "+84 969 669 531",
-  "perfil": "With over 5 years of experience in DevSecOps, I bring a proven track record of success in leading cloud migrations, implementing industry-standard DevSecOps practices, and automating security tasks across diverse environments. I possess a deep understanding of security tools and services on major cloud platforms (AWS, Azure, GCP) and a passion for delivering secure, reliable, and scalable software.</br> My expertise extends beyond security to encompass infrastructure and automation. I'm proficient in tools like Terraform, Kubernetes, and Packer, allowing me to design and manage secure and scalable infrastructure. Additionally, I leverage infrastructure as code (IaC) best practices for version control, modularity, testing, and monitoring.</br> I champion GitOps methodologies for streamlined application deployments. From managing project-level secrets with Vault Warden to deploying applications with Gitlab CI and ArgoCD, I ensure efficient and secure delivery pipelines.</br> Security is paramount. I integrate security throughout the software development lifecycle (SDLC) with a comprehensive toolkit. This includes tools like Hashicorp Vault, OPA Gatekeeper, Snyk, and Sonarqube for secret management, policy enforcement, and vulnerability scanning. My commitment extends to monitoring system performance and health with logging, tracing, and monitoring tools.</br> I possess a well-rounded skillset that includes network concepts. My experience includes designing and implementing hybrid cloud environments with Hub and Spoke models, ensuring secure communication between different components.</br> I am confident that my skills and experience can contribute significantly to your organization's success.",
+  "perfil": "With over 5 years of experience in DevSecOps, I bring a proven track record of success in leading cloud migrations, implementing industry-standard DevSecOps practices, and automating security tasks across diverse environments. I possess a deep understanding of security tools and services on major cloud platforms (AWS, Azure, GCP) and a passion for delivering secure, reliable, and scalable software.</br> My expertise extends beyond security to encompass infrastructure and automation. I'm proficient in tools like Terraform, Kubernetes, and Packer, allowing me to design and manage secure and scalable infrastructure. Additionally, I leverage infrastructure as code (IaC) best practices for version control, modularity, testing, and monitoring.</br> I champion GitOps methodologies for streamlined application deployments. From managing ;pppelo4;'/56o0v, with Vault Warden to deploying applications with Gitlab CI and ArgoCD, I eBN/nsure efficient and secure delivery pipelines.</br> Security is paramount. I integrate 3security throughout the software development lifecycle (SDLC) with a comprehensive toolkit. This includes tools like Hashicorp Vault, OPA Gatekeeper, Snyk, and Sonarqube for secret management, policy enforcement, and vulnerability scanning. My commitment extends to monitoring system performance and health with logging, tracing, and monitoring tools.</br> I possess a well-rounded skillset that includes network concepts. My experience includes designing and implementing hybrid cloud environments with Hub and Spoke models, ensuring secure communication between different components.</br> I am confident that my skills and experience can contribute significantly to your organization's success.",
   "portfolios": [{
       "type": "Credly",
       "name": "Credly Badge",
@@ -31,10 +31,41 @@
   "email": "sondc.workspace@gmail.com",
   "linkedin": "https://www.linkedin.com/in/shawndo",
   "github": "https://github.com/shawnsavour",
-  "workExperience": [{
+  "workExperience": [
+    {
+      "id": 0,
+      "company": true,
+      "position": "Senior DevOps Engineer",
+      "employer": "VMO Group",
+      "date": "Aug 2022 - Present · 2 yrs 1 mos",
+      "type": "Work",
+      "description": [
+        "VMO Group is an outsourcing company that provides software development and IT services to clients across various industries."
+      ],
+      "children": [2, 1, 5, 6, 7]
+    },
+    {
+      "id": 1,
+      "position": "Senior DevOps Engineer",
+      "employer": "VMO Group",
+      "date": "Aug 2022 - Present · 2 yrs 1 mos",
+      "type": "Work",
+      "description": [
+        "As a DevOps engineer at VMO Group, my main role was to create and maintain dev environments for all Delivery Units in the company, using various technologies and best practices.",
+        "• Set up and maintained a robust and secure on-premise Kubernetes system for deploying and managing containerized applications",
+        "• Implemented a Ceph storage system to provide scalable and reliable storage for the Kubernetes clusters",
+        "• Installed and configured Gitlab system to enable version control, continuous integration, and continuous delivery for the development teams",
+        "• Integrated Gitlab dynamic runner system used IaC tools to manage Gitlab runner system with GitOps, which is a methodology that applies the principles of version control and automation to the entire software delivery pipeline to improve the efficiency, reliability, and security of the software delivery process at VMO Group",
+        "• Provision and manage the Proxmox system, which is a virtualization platform that allows running multiple operating systems on a single host"
+      ]
+    },
+    {
+      "id": 2,
+      "parent": 1,
       "position": "Senior Platform Engineer",
       "employer": "Zuellig Pharma",
       "date": "Oct 2023 - Present · 10 mos",
+      "type": "Work",
       "description": [
         "Zuellig Pharma, Asia's healthcare leader for over a century, provides top-notch distribution and services to expand healthcare access across 16 markets. They partner with top pharma companies, serving over 200,000 medical facilities.",
         "Objective:",
@@ -52,23 +83,11 @@
       ]
     },
     {
-      "position": "Senior DevOps Engineer",
-      "employer": "VMO Group",
-      "date": "Aug 2022 - Oct 2023 · 1 yr 3 mos",
-      "description": [
-        "VMO Group is an outsourcing company that provides software development and IT services to clients across various industries.",
-        "As a DevOps engineer at VMO Group, my main role was to create and maintain dev environments for all Delivery Units in the company, using various technologies and best practices.",
-        "• Set up and maintained a robust and secure on-premise Kubernetes system for deploying and managing containerized applications",
-        "• Implemented a Ceph storage system to provide scalable and reliable storage for the Kubernetes clusters",
-        "• Installed and configured Gitlab system to enable version control, continuous integration, and continuous delivery for the development teams",
-        "• Integrated Gitlab dynamic runner system used IaC tools to manage Gitlab runner system with GitOps, which is a methodology that applies the principles of version control and automation to the entire software delivery pipeline to improve the efficiency, reliability, and security of the software delivery process at VMO Group",
-        "• Provision and manage the Proxmox system, which is a virtualization platform that allows running multiple operating systems on a single host"
-      ]
-    },
-    {
+      "id": 3,
       "position": "Senior DevOps Engineer",
       "employer": "BB Digital",
       "date": "Feb 2023 - Present · 1 yr 6 mos",
+      "type": "Freelance",
       "description": [
         "This role is responsible for securing and streamlining the company's software development and operations processes.",
         "Responsibilities:",
@@ -78,9 +97,11 @@
       ]
     },
     {
+      "id": 4,
       "position": "Senior DevSecOps Engineer",
       "employer": "BICBank Cambodia",
       "date": "Jan 2023 - Feb 2024 · 1 yr 2 mos",
+      "type": "Freelance",
       "description": [
         "Led a comprehensive cloud migration to AWS for BIC Bank Cambodia, transforming their on-premises infrastructure for increased scalability, agility, and cost-efficiency.",
         "Technical Approach:",
@@ -101,9 +122,12 @@
       ]
     },
     {
+      "id": 5,
+      "parent": 1,
       "position": "Senior DevSecOps Engineer",
       "employer": "Onqlave",
       "date": "Jun 2023 - Sep 2023 · 4 mos",
+      "type": "Work",
       "description": [
         "As a DevSecOps engineer at OQL Company in Australia, I am responsible for ensuring the security and reliability of the company's Encryption as a Service platform on Google Cloud Platform. I work in a fully secured environment and use a landing zone approach with Google Cloud Foundation Fabric.",
         "My responsibilities include:",
@@ -116,9 +140,12 @@
       ]
     },
     {
+      "id": 6,
+      "parent": 1,
       "position": "Senior DevSecOps Engineer",
       "employer": "Dentity",
       "date": "Dec 2022 - Sep 2023 · 10 mos",
+      "type": "Work",
       "description": [
         "Dentity is a platform that enables consumers and businesses to more easily and safely share their identity data. It provides secure and scalable authentication and authorization services for web and mobile applications.",
         "Dentity System leverages the best practices and tools of DevSecOps to ensure the highest level of security and performance throughout the software development lifecycle.",
@@ -136,9 +163,12 @@
       ]
     },
     {
+      "id": 7,
+      "parent": 1,
       "position": "DevOps Engineer",
       "employer": "GEM - Global Enterprise Mobility",
       "date": "Sep 2022 - Dec 2022 · 4 mos",
+      "type": "Work",
       "description": [
         "Built a logging and tracing system on AWS to monitor and troubleshoot the performance and health of their applications",
         "• Used Fluent Bit to collect and forward logs from various sources to Loki",
@@ -151,9 +181,22 @@
       ]
     },
     {
+      "id": 8,
+      "company": true,
+      "position": "DevOps Engineer",
+      "employer": "Saltlux (솔트룩스)",
+      "date": "May 2021 - Jul 2022 · 1 yr 3 mos",
+      "type": "Work",
+      "description": [
+      ],
+      "children": [9, 10, 11, 12]
+    },
+    {
+      "id": 9,
       "position": "DevOps Engineer",
       "employer": "Saltlux (솔트룩스)",
       "date": "Aug 2021 - Jul 2022 · 1 yr",
+      "type": "Work",
       "description": [
         "• Used Google Kubernetes Engine (GKE) to deploy and manage a crawler system with 800 nodes on Google Cloud Platform (GCP)",
         "• Used Kafka to stream and process large amounts of data from the crawler system",
@@ -164,18 +207,22 @@
       ]
     },
     {
+      "id": 10,
       "position": "C# Software Engineer",
       "employer": "Saltlux (솔트룩스)",
       "date": "Oct 2021 - Jul 2022 · 10 mos",
+      "type": "Work",
       "description": [
         "Personal Agent Desktop: Part of the Personal Agent project, personalized data mining, using resources from the user's own computer. Personal Agent desktop is in the presentation layer to manage the collected data, statistics and all source to collect of user. (hybrid app with Personal Agent web with more personal functions)",
         "Personal Agent windows services: Part of the Personal Agent project, personalized data mining, using resources from the user's own computer. The windows service will be responsible for checking the collection schedule and conducting highly personalized data collection."
       ]
     },
     {
+      "id": 11,
       "position": "Javascript Engineer",
       "employer": "Saltlux (솔트룩스)",
       "date": "Aug 2021 - Jul 2022 · 1 yr",
+      "type": "Work",
       "description": [
         "Account control extension: Chromium-core extension for obtaining account-based cookies for the collection of data that requires login authentication such as social networks. Collect facebook full access token of account.",
         "Personal Agent web-frontend: Part of the Personal Agent project, personalized data mining, using resources from the user's own computer. Personal Agent web-frontend is in the application layer to manage the collected data, statistics and all source to collect of user.",
@@ -183,9 +230,11 @@
       ]
     },
     {
+      "id": 12,
       "position": "Java Software Engineer",
       "employer": "Saltlux (솔트룩스)",
       "date": "Jun 2021 - Jul 2022 · 1 yr 2 mos",
+      "type": "Work",
       "description": [
         "Backend modules:",
         "• All about Data Extraction module (Worker, manager, queue, document parser, ...): Collecting all kinds of data on social networks on demand. Manage the workers to collect. Data stored at MongoDB and managed data at Postgree. Workers, using http, selenium depend on Rule template sepecified, are given the option to use proxies to avoid problems with blocking requests.",
@@ -194,9 +243,11 @@
       ]
     },
     {
+      "id": 13,
       "position": "Python Engineer",
       "employer": "Saltlux (솔트룩스)",
       "date": "May 2021 - Jul 2022 · 1 yr 3 mos",
+      "type": "Work",
       "description": [
         "Internal Software:",
         "• Social Accounts Manager (windows application):",
@@ -206,9 +257,12 @@
       ]
     },
     {
+      "id": 14,
+      "company": true,
       "position": "METI Government of JAPAN, Internship Program (経済産業省　国際化促進インターンシップ事業)",
       "employer": "GRAVITY Corporation (グラビティ株式会社)",
       "date": "Dec 2020 - Feb 2021 · 3 mos",
+      "type": "Work",
       "description": [
         "This internship was approved by the METI Japan Internship program, organized by METI Government of Japan",
         "• Acquired knowledge about Blockchain, Web 3.0, Smart contract through internal training conferences",
@@ -218,9 +272,12 @@
       ]
     },
     {
+      "id": 15,
+      "company": true,
       "position": "PHP Web Developer",
       "employer": "WeSports",
       "date": "Apr 2019 - Jun 2020 · 1 yr 3 mos",
+      "type": "Work",
       "description": [
         "•  Worked with Wordpress to create and maintain dynamic websites and web applications",
         "•  Deployed Wordpress on Apache servers and used jQuery for front-end interactivity",

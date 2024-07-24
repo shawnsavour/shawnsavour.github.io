@@ -1756,6 +1756,10 @@ input {
     display: none
 }
 
+.freelance :last-child .timeline_linea {
+    display: none
+}
+
 .formacionacademica :last-child .timeline_linea {
     display: none
 }
@@ -2659,6 +2663,7 @@ canvas {
     display: none
 }
 
+.freelance .cuadro,
 .experiencialaboral .cuadro,
 .formacionacademica .cuadro {
     padding-left: 3.5rem
@@ -2668,6 +2673,7 @@ canvas {
     text-align: center;
 }
 
+#freelance,
 #experiencialaboral,
 #formacionacademica,
 #section-educations,
@@ -2791,6 +2797,7 @@ canvas {
     margin-top: .5rem
 }
 
+#freelance .titulo3,
 #datospersonales .titulo3,
 #experiencialaboral .titulo3,
 #section-educations .titulo3,
@@ -2820,6 +2827,7 @@ canvas {
     line-height: 1.4
 }
 
+#freelance .titulo3,
 #experiencialaboral .titulo3,
 #section-educations .titulo3,
 #formacionacademica .titulo3 {
@@ -2850,6 +2858,7 @@ canvas {
     white-space: nowrap;
 }
 
+.freelance .texto,
 .experiencialaboral .texto {
     margin-top: -.5rem!important;
     text-align: justify;
