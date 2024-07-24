@@ -1760,6 +1760,10 @@ input {
     display: none
 }
 
+.children-project :last-child .timeline_linea {
+    display: none
+}
+
 .formacionacademica :last-child .timeline_linea {
     display: none
 }

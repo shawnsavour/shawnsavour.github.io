@@ -76,23 +76,25 @@ function createWorkExperienceHtml(data) {
         </p>
         // get children of exp, exp.children is an array of id of exp
         // get the exp from data.workExperience that have id in exp.children
-        ${exp.children ? exp.children.map((child) => {
-          childExp = data.workExperience.find(e => e.id === child)
-          return `
-          <div class="cuadro ui-state-default">
-              <div style="position:relative">
-                  <div class="timeline_bola color_estrellas" style="background: rgb(255, 72, 40);"></div>
-                  <p class="titulo2 color" contenteditable="false" placeholder="Position" style="color: rgb(255, 72, 40);">${childExp.position}</p>
-              </div>
-              <p class="titulo3" contenteditable="false" placeholder="Employer">${childExp.employer}</p>
-              <p class="fecha" contenteditable="false" placeholder="From - Until">${childExp.date}</p>
-              <p class="texto break-wrapper" contenteditable="false">
-                  ${childExp.description.map((d) => `<span class="break-print">${d}</span><br>`).join('')}
-              </p>
-              <div class="timeline_linea"></div>
-          </div>
-          `
-        }).join('') : ''}
+        <div class="children-project">
+          ${exp.children ? exp.children.map((child) => {
+            childExp = data.workExperience.find(e => e.id === child)
+            return `
+            <div class="cuadro ui-state-default">
+                <div style="position:relative">
+                    <div class="timeline_bola color_estrellas" style="background: rgb(255, 72, 40);"></div>
+                    <p class="titulo2 color" contenteditable="false" placeholder="Position" style="color: rgb(255, 72, 40);">${childExp.position}</p>
+                </div>
+                <p class="titulo3" contenteditable="false" placeholder="Employer">${childExp.employer}</p>
+                <p class="fecha" contenteditable="false" placeholder="From - Until">${childExp.date}</p>
+                <p class="texto break-wrapper" contenteditable="false">
+                    ${childExp.description.map((d) => `<span class="break-print">${d}</span><br>`).join('')}
+                </p>
+                <div class="timeline_linea"></div>
+            </div>
+            `
+          }).join('') : ''}
+        </div>
         <div class="timeline_linea"></div>
     </div>
     `
