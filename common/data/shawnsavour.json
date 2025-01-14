@@ -67,19 +67,19 @@
       "date": "Oct 2023 - Present · 1 yr 4 mos",
       "type": "Work",
       "description": [
-        "Zuellig Pharma, Asia's healthcare leader for over a century, provides top-notch distribution and services to expand healthcare access across 16 markets. They partner with top pharma companies, serving over 200,000 medical facilities.",
+        "Zuellig Pharma, a leading healthcare services provider in Asia, has been at the forefront of healthcare distribution and services for over a century, operating in 16 markets and partnering with top pharmaceutical companies to serve over 200,000 medical facilities.",
         "Objective:",
-        "The objective is to modernize cloud infrastructure by migrating from Azure to GCP with Kubernetes Engine for orchestration. This transition will implement best practices for organization and security (Fabric FAST, GKE best practices, GitOps) and leverage CloudSQL with Workload Identity for secure databases. An IaC pipeline will automate infrastructure management.",
+        "The objective is to modernize and secure the cloud infrastructure by migrating from Azure to Google Cloud Platform (GCP) and implementing Kubernetes Engine for orchestration. This transition will follow best practices for organization and security (Fabric FAST, GKE best practices, GitOps) and leverage CloudSQL with Workload Identity for secure database management. An Infrastructure as Code (IaC) pipeline will automate infrastructure management.",
         "Responsibilities:",
-        "• Design and implement a secure and scalable cloud infrastructure on Google Cloud Platform",
-        "• Network design and implementation for hybrid cloud environment with Spoke and Hub model",
-        "• Migrate all the infrastructure from Azure to Google Cloud",
-        "• Set up and maintain the Kubernetes system",
-        "• Implement best practice Organization model using Fabric FAST",
-        "• Implement security best practices to the GKE system",
-        "• Migrate and implement security with GitOps from AKS to GKE",
-        "• Provision CloudSQL and implement SQLproxy with Workload Identity Authentication methods to provide secured connection to the databases.",
-        "• Setup pipeline for IaC"
+        "• Lead the design and implementation of a secure and scalable cloud infrastructure on Google Cloud Platform",
+        "• Architect and implement a hybrid cloud network environment using the Spoke and Hub model",
+        "• Oversee the migration of all infrastructure from Azure to Google Cloud",
+        "• Set up and maintain a robust Kubernetes system",
+        "• Implement best practice organization models using Fabric FAST",
+        "• Apply security best practices to the GKE system",
+        "• Migrate and implement security measures with GitOps from AKS to GKE",
+        "• Provision CloudSQL and implement SQLproxy with Workload Identity Authentication methods to ensure secure database connections",
+        "• Develop and manage an IaC pipeline for automated infrastructure management"
       ]
     },
     {
