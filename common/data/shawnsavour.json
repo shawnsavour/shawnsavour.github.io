@@ -40,7 +40,8 @@
       "date": "Aug 2022 - Present · 2 yrs 6 mos",
       "type": "Work",
       "description": [
-        "VMO Group is an outsourcing company that provides software development and IT services to clients across various industries."
+        "VMO Group is an outsourcing company that provides software development and IT services to clients across various industries.",
+        "Awarded Employee of the Year for two consecutive years, recognizing outstanding performance and contributions to the company"
       ],
       "children": [2, 1, 5, 6, 7]
     },
@@ -188,6 +189,14 @@
       "date": "May 2021 - Jul 2022 · 1 yr 3 mos",
       "type": "Work",
       "description": [
+        [
+          "Saltlux is a leading AI and big data company in South Korea, providing innovative solutions and services to various industries.",
+          "• Developed and maintained a large-scale data processing pipeline using Apache Kafka, Redis, and MongoDB.",
+          "• Implemented a real-time monitoring and alerting system using Prometheus, Grafana, and Loki.",
+          "• Automated infrastructure provisioning and management using Terraform and Ansible.",
+          "• Collaborated with cross-functional teams to ensure the security, scalability, and reliability of the platform.",
+          "Awarded Employee of the Year for outstanding performance and contributions to the company"
+        ]
       ],
       "children": [9, 10, 11, 12]
     },
