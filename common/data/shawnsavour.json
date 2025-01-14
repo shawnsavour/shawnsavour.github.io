@@ -37,7 +37,7 @@
       "company": true,
       "position": "Senior DevOps Engineer",
       "employer": "VMO Group",
-      "date": "Aug 2022 - Present · 2 yrs 2 mos",
+      "date": "Aug 2022 - Present · 2 yrs 6 mos",
       "type": "Work",
       "description": [
         "VMO Group is an outsourcing company that provides software development and IT services to clients across various industries."
@@ -62,9 +62,9 @@
     {
       "id": 2,
       "parent": 1,
-      "position": "Senior Platform Engineer",
+      "position": "Platform Leader",
       "employer": "Zuellig Pharma",
-      "date": "Oct 2023 - Present · 1 yr",
+      "date": "Oct 2023 - Present · 1 yr 4 mos",
       "type": "Work",
       "description": [
         "Zuellig Pharma, Asia's healthcare leader for over a century, provides top-notch distribution and services to expand healthcare access across 16 markets. They partner with top pharma companies, serving over 200,000 medical facilities.",

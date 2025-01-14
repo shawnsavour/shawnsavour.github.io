@@ -205,6 +205,14 @@ function createPortfoliosHtml(data) {
   `
 }
 
+// function getDurration(start, end) {
+//   const startDate = new Date(start)
+//   const endDate = new Date(end)
+//   const years = endDate.getFullYear() - startDate.getFullYear()
+//   const months = endDate.getMonth() - startDate.getMonth()
+//   return `${years} years ${months} months`
+// }
+
 window.onload = function () {
   fetch('common/data/shawnsavour.json').then(response => {
       return response.json()
