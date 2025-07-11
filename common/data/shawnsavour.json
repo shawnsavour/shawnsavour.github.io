@@ -1,12 +1,12 @@
 {
   "name": "SON (SHAWN) CONG DO",
-  "title": "Platform/DevSecOps Engineer",
+  "title": "Full Stack DevOps Engineer",
   "phone": "+84 969 669 531",
-  "perfil": "With over 6 years of experience in DevSecOps, I bring a proven track record of success in leading cloud migrations, implementing industry-standard DevSecOps practices, and automating security tasks across diverse environments. I possess a deep understanding of security tools and services on major cloud platforms (AWS, Azure, GCP) and a passion for delivering secure, reliable, and scalable software. </br>My expertise extends beyond security to encompass infrastructure and automation. I'm proficient in tools like Terraform, Kubernetes, and Packer, allowing me to design and manage secure and scalable infrastructure. Additionally, I leverage infrastructure as code (IaC) best practices for version control, modularity, testing, and monitoring. </br>Security is paramount. I integrate security throughout the software development lifecycle (SDLC) with a comprehensive toolkit. This includes tools like Hashicorp Vault, OPA Gatekeeper, Snyk, and Sonarqube for secret management, policy enforcement, and vulnerability scanning. My commitment extends to monitoring system performance and health with logging, tracing, and monitoring tools. </br>I possess a well-rounded skillset that includes network concepts. My experience includes designing and implementing hybrid cloud environments with Hub and Spoke models, ensuring secure communication between different components. </br>I am confident that my skills and experience can contribute significantly to your organization's success.",
+  "perfil": "Full Stack DevOps Engineer with 6+ years of experience designing and implementing secure CI/CD pipelines, infrastructure automation frameworks, and cloud-native microservices architectures. Expert in containerization technologies (Docker, Kubernetes) and Infrastructure as Code tools (Terraform, CloudFormation, Ansible). </br>Proven track record managing both cloud (AWS/Azure) and on-premise infrastructure with focus on compliance, security, and high availability. Experienced in rapid prototyping and proof-of-concept development to validate technical solutions. </br>Strong background in software development with proficiency in Python, Bash, Golang, and DevSecOps best practices. Demonstrated technical leadership experience mentoring junior team members and collaborating with cross-functional teams to solve complex infrastructure challenges.",
   "portfolios": [{
       "type": "Credly",
       "name": "Credly Badge",
-      "link": "https://www.credly.com/users/son-do.1460d18d/badges/",
+      "link": "https://www.credly.com/users/shawndo/badges",
       "icon": "bi bi-c-circle-fill"
     },
     {
@@ -36,8 +36,8 @@
       "id": 0,
       "company": true,
       "position": "Senior DevOps Engineer",
-      "employer": "VMO Group",
-      "date": "Aug 2022 - Present · 2 yrs 6 mos",
+      "employer": "VMO Group - An Alten company",
+      "date": "Aug 2022 - Present · 3 yrs",
       "type": "Work",
       "description": [
         "VMO Group is an outsourcing company that provides software development and IT services to clients across various industries.",
@@ -48,16 +48,18 @@
     {
       "id": 1,
       "position": "Senior DevOps Engineer",
-      "employer": "VMO Group",
-      "date": "Aug 2022 - Present · 2 yrs 6 mos",
+      "employer": "VMO Group - An Alten company",
+      "date": "Aug 2022 - Present · 3 yrs",
       "type": "Work",
       "description": [
-        "As a DevOps engineer at VMO Group, my main role was to create and maintain dev environments for all Delivery Units in the company, using various technologies and best practices.",
-        "• Set up and maintained a robust and secure on-premise Kubernetes system for deploying and managing containerized applications",
-        "• Implemented a Ceph storage system to provide scalable and reliable storage for the Kubernetes clusters",
-        "• Installed and configured Gitlab system to enable version control, continuous integration, and continuous delivery for the development teams",
-        "• Integrated Gitlab dynamic runner system used IaC tools to manage Gitlab runner system with GitOps, which is a methodology that applies the principles of version control and automation to the entire software delivery pipeline to improve the efficiency, reliability, and security of the software delivery process at VMO Group",
-        "• Provision and manage the Proxmox system, which is a virtualization platform that allows running multiple operating systems on a single host"
+        "As a Senior DevOps Engineer at VMO Group, I design and implement secure CI/CD pipelines and infrastructure automation frameworks for multiple delivery units across the organization.",
+        "• Designed and maintained secure CI/CD pipelines using GitLab CI with integrated security scanning and automated deployment workflows",
+        "• Implemented Infrastructure as Code (IaC) using Terraform and GitOps methodology to manage infrastructure across development, staging, and production environments",
+        "• Set up and maintained robust on-premise Kubernetes clusters for containerized application deployment and management",
+        "• Built infrastructure automation frameworks with Proxmox virtualization platform and Ceph distributed storage system",
+        "• Integrated GitLab dynamic runner system with declarative configuration management for scalable build and deployment processes",
+        "• Established monitoring and observability solutions to ensure compliance, security, and high availability of infrastructure",
+        "• Mentored junior team members on DevOps best practices and cloud-native development methodologies"
       ]
     },
     {
@@ -65,61 +67,55 @@
       "parent": 1,
       "position": "Platform Leader",
       "employer": "Zuellig Pharma",
-      "date": "Oct 2023 - Present · 1 yr 4 mos",
+      "date": "Oct 2023 - Present · 1 yr 10 mos",
       "type": "Work",
       "description": [
-        "Zuellig Pharma, a leading healthcare services provider in Asia, has been at the forefront of healthcare distribution and services for over a century, operating in 16 markets and partnering with top pharmaceutical companies to serve over 200,000 medical facilities.",
-        "Objective:",
-        "The objective is to modernize and secure the cloud infrastructure by migrating from Azure to Google Cloud Platform (GCP) and implementing Kubernetes Engine for orchestration. This transition will follow best practices for organization and security (Fabric FAST, GKE best practices, GitOps) and leverage CloudSQL with Workload Identity for secure database management. An Infrastructure as Code (IaC) pipeline will automate infrastructure management.",
-        "Responsibilities:",
-        "• Lead the design and implementation of a secure and scalable cloud infrastructure on Google Cloud Platform",
-        "• Architect and implement a hybrid cloud network environment using the Spoke and Hub model",
-        "• Oversee the migration of all infrastructure from Azure to Google Cloud",
-        "• Set up and maintain a robust Kubernetes system",
-        "• Implement best practice organization models using Fabric FAST",
-        "• Apply security best practices to the GKE system",
-        "• Migrate and implement security measures with GitOps from AKS to GKE",
-        "• Provision CloudSQL and implement SQLproxy with Workload Identity Authentication methods to ensure secure database connections",
-        "• Develop and manage an IaC pipeline for automated infrastructure management"
+        "Lead platform engineering and infrastructure automation for enterprise-scale healthcare infrastructure migration and modernization.",
+        "Technical Leadership:",
+        "• Lead technical design and implementation of secure, scalable cloud infrastructure using Infrastructure as Code (Terraform, CloudFormation)",
+        "• Architect and implement hybrid cloud network environments with Hub and Spoke model for multi-region deployment",
+        "• Design and manage CI/CD pipelines with GitOps methodology for automated infrastructure provisioning and application deployment",
+        "• Implement cloud-native microservices architecture using Kubernetes (GKE) with security best practices and compliance frameworks",
+        "• Establish infrastructure automation frameworks for database management (CloudSQL) with Workload Identity authentication",
+        "• Mentor and lead junior engineers in DevOps best practices, cloud migration strategies, and infrastructure automation",
+        "• Collaborate with cross-functional teams to identify and solve complex infrastructure and deployment challenges",
+        "• Rapid prototyping of proof-of-concept solutions for cloud migration and modernization initiatives"
       ]
     },
     {
       "id": 3,
-      "position": "Senior DevOps Engineer",
-      "employer": "BB Digital",
-      "date": "Feb 2023 - May 2024 · 1 yr 4 mos",
-      "type": "Freelance",
-      "description": [
-        "This role is responsible for securing and streamlining the company's software development and operations processes.",
-        "Responsibilities:",
-        "• Implement DevSecOps best practices throughout the software development lifecycle, utilizing tools like Vault Warden, Gitlab CI/ArgoCD, Terraform, KEDA/Kapenter, Hashicorp Vault/OPA GateKeeper, and Snyk/Sonarqube/Trivy/ZAP Operator to automate security tasks.",
-        "• Monitor system performance and health using logging (Promtail, Loki, Grafana), tracing (ElasticSearch, Jaeger), and monitoring (Prometheus).",
-        "• Utilize Automation WAF to automatically deploy and manage AWS WAF rules, safeguarding the company's web applications from common attacks."
-      ]
-    },
-    {
-      "id": 4,
       "position": "Senior DevSecOps Engineer",
       "employer": "BICBank Cambodia",
       "date": "Jan 2023 - Jul 2024 · 1 yr 2 mos",
       "type": "Freelance",
       "description": [
-        "Led a comprehensive cloud migration to AWS for BIC Bank Cambodia, transforming their on-premises infrastructure for increased scalability, agility, and cost-efficiency.",
-        "Technical Approach:",
-        "• Migrate all on-premises banking platforms to AWS with a re-architect strategy",
-        "• Design and implement landing zones for organizations with IAM Identity Central Active Directory",
-        "• Design and implement hub and spoke hybrid network model",
-        "• Implement Site to Site VPN and Software VPN with SSO Active Directory with Pritunl Enterprise",
-        "• Implement all underlying infrastructure as EKS, RDS serverless, DynamoDB ...",
-        "• Implement centralized security and monitoring in shared-service EKS cluster with Hashicorp Vault high availability, Prometheus with Thanos Multi cluster pattern.",
-        "• Implement secret rotation and injection with Hashicorp Vault Injector high availability, directly pass secrets into the pod without storing them as secrets inside the cluster.",
-        "• Implement distro-less images with smaller size, faster deployments, and potentially improved security.",
-        "• Implement Istio gateway and service mesh with strict mTLS between microservices.",
-        "• Implement Gitlab for 5000 users with hybrid architecture",
-        "• Integrate GitLab dynamic runner system with GitOps managed declarative config",
-        "• Implement a centralized pipeline template with many security layers in the pipeline, including SAST and SCA with Sonarqube, Trivy, Snyk, Docker Scout, ...and DAST with OWASP ZAP",
-        "• Implement policy enforcement with Open Policy Agent GateKeeper with Centralized Policy Management, Admission Control Integration, Enforcing Best Practices and Compliance Enforcement to comply with internal security policies or external regulatory requirements (e.g., PCI-DSS, HIPAA)",
-        "• Implement Security Automations for AWS WAF rules to protect your web applications from common attacks with Automation WAF (anti DDoS, Web Scan, XSS/SQL injection, Bot and IP restriction, ...)"
+        "Led comprehensive cloud migration and infrastructure automation for enterprise banking systems using AWS and Infrastructure as Code.",
+        "Technical Implementation:",
+        "• Designed and implemented secure CI/CD pipelines with GitLab for 5000+ users, integrating automated security scanning (SAST/DAST)",
+        "• Architected AWS infrastructure using Terraform and CloudFormation for multi-account landing zone deployment",
+        "• Implemented container orchestration with AWS EKS, including Istio service mesh and microservices architecture",
+        "• Built Infrastructure as Code frameworks for automated provisioning of AWS services (RDS, DynamoDB, Lambda)",
+        "• Established comprehensive monitoring and compliance framework ensuring PCI-DSS and regulatory requirements",
+        "• Implemented GitOps methodology with ArgoCD for declarative infrastructure and application deployment",
+        "• Led technical team in rapid prototyping and proof-of-concept development for cloud-native solutions",
+        "• Automated security compliance with policy enforcement using Open Policy Agent GateKeeper"
+      ]
+    },
+    {
+      "id": 4,
+      "position": "Senior DevOps Engineer",
+      "employer": "BB Digital",
+      "date": "Feb 2023 - May 2024 · 1 yr 4 mos",
+      "type": "Freelance",
+      "description": [
+        "Designed and implemented comprehensive DevSecOps infrastructure automation and secure CI/CD pipelines.",
+        "Key Achievements:",
+        "• Implemented DevSecOps best practices with automated security scanning integrated into CI/CD pipelines using GitLab CI/ArgoCD",
+        "• Built Infrastructure as Code (IaC) frameworks using Terraform for consistent, reproducible infrastructure deployment",
+        "• Designed container orchestration solutions with Kubernetes, implementing KEDA and Karpenter for auto-scaling",
+        "• Established comprehensive monitoring and observability stack (Promtail, Loki, Grafana, Prometheus, Jaeger)",
+        "• Automated security compliance with HashiCorp Vault, OPA GateKeeper, and integrated SAST/DAST scanning tools",
+        "• Implemented AWS WAF automation for web application security and threat protection"
       ]
     },
     {
@@ -148,18 +144,15 @@
       "date": "Dec 2022 - Sep 2023 · 10 mos",
       "type": "Work",
       "description": [
-        "Dentity provides secure and scalable authentication and authorization services for web and mobile applications.",
-        "As the sole DevSecOps engineer, I integrate security into development and operations processes, including:",
-        "• Managing secrets with Vault Warden",
-        "• Automating deployments to AWS EKS with GitOps using Gitlab CI and ArgoCD",
-        "• Implementing IaC best practices with Terraform",
-        "• Autoscaling EKS clusters with KEDA and Kapenter",
-        "• Managing and rotating secrets with Hashicorp Vault and enforcing policies with OPA GateKeeper",
-        "• Using passwordless and credential-less patterns for secure connections",
-        "• Performing SAST and DAST scans with Snyk, Sonarqube, Trivy, and ZAP operator",
-        "• Monitoring system performance with Promtail, Loki, Grafana, ElasticSearch, Jaeger, and Prometheus",
-        "• Deploying and managing AWS WAF rules with Automation WAF",
-        "By following DevSecOps practices, I ensure Dentity delivers secure and reliable identity services on AWS."
+        "Designed and implemented secure CI/CD pipelines and cloud-native infrastructure for identity service platform.",
+        "Infrastructure Automation:",
+        "• Built automated deployment pipelines to AWS EKS using GitLab CI and ArgoCD with GitOps methodology",
+        "• Implemented Infrastructure as Code using Terraform for consistent and reproducible AWS infrastructure provisioning",
+        "• Designed container orchestration with Kubernetes, implementing auto-scaling using KEDA and Karpenter",
+        "• Established DevSecOps best practices with integrated security scanning (Snyk, SonarQube, Trivy, OWASP ZAP)",
+        "• Implemented comprehensive monitoring and observability using Prometheus, Grafana, Loki, and AWS X-Ray",
+        "• Automated secret management and rotation using HashiCorp Vault with policy enforcement via OPA GateKeeper",
+        "• Configured AWS WAF automation for application security and threat protection"
       ]
     },
     {
@@ -170,14 +163,14 @@
       "date": "Sep 2022 - Dec 2022 · 4 mos",
       "type": "Work",
       "description": [
-        "Built a logging and tracing system on AWS to monitor and troubleshoot the performance and health of their applications",
-        "• Used Fluent Bit to collect and forward logs from various sources to Loki",
-        "• Used Loki to store and query the logs in a scalable and cost-effective way",
-        "• Used Grafana to visualize and analyze the logs and metrics from Loki and other sources",
-        "• Used OpenTelemetry to instrument and collect traces from the applications",
-        "• Used AWS X-Ray to store and visualize the traces and identify bottlenecks and errors",
-        "• Used CloudFormation to provision and manage the AWS resources for the logging and tracing system",
-        "• Used HashiCorp Packer to create and configure custom AMIs for the EC2 instances running the applications"
+        "Designed and implemented comprehensive logging, tracing, and monitoring infrastructure automation on AWS.",
+        "Infrastructure & Automation:",
+        "• Built AWS infrastructure automation using CloudFormation for scalable logging and observability systems",
+        "• Implemented container-based log collection and processing pipeline using Fluent Bit and Loki",
+        "• Designed distributed tracing architecture with OpenTelemetry and AWS X-Ray for application performance monitoring",
+        "• Created Infrastructure as Code using HashiCorp Packer for automated AMI creation and configuration management",
+        "• Established monitoring and visualization platform using Grafana for real-time infrastructure and application insights",
+        "• Automated infrastructure provisioning and management for high-availability, scalable logging system"
       ]
     },
     {
@@ -200,12 +193,15 @@
       "date": "Aug 2021 - Jul 2022 · 1 yr",
       "type": "Work",
       "description": [
-        "• Used Google Kubernetes Engine (GKE) to deploy and manage a crawler system with 800 nodes on Google Cloud Platform (GCP)",
-        "• Used Kafka to stream and process large amounts of data from the crawler system",
-        "• Used Redis to store and access data in memory for fast performance",
-        "• Used MongoDB to store and query structured and unstructured data",
-        "• Used Loki, Promtail, and Grafana to monitor and visualize the logs and metrics of the crawler system and other components",
-        "• Used best practices and tools to automate, secure, and optimize the DevOps workflow on GCP"
+        "Led DevOps infrastructure and container orchestration for large-scale data processing systems.",
+        "Container & Infrastructure Management:",
+        "• Managed Google Kubernetes Engine (GKE) cluster with 800+ nodes for high-throughput container orchestration",
+        "• Implemented microservices architecture with Docker containerization for scalable data processing applications",
+        "• Built real-time data streaming infrastructure using Apache Kafka for processing large volumes of data",
+        "• Designed in-memory caching layer using Redis for high-performance data access and retrieval",
+        "• Established comprehensive monitoring and observability using Loki, Promtail, and Grafana for infrastructure and application health",
+        "• Implemented automated scaling and resource optimization for cloud-native containerized workloads",
+        "• Applied DevOps best practices for security, automation, and optimization of cloud infrastructure"
       ]
     },
     {
@@ -238,10 +234,14 @@
       "date": "Jun 2021 - Jul 2022 · 1 yr 2 mos",
       "type": "Work",
       "description": [
-        "Backend modules:",
-        "• All about Data Extraction module (Worker, manager, queue, document parser, ...): Collecting all kinds of data on social networks on demand. Manage the workers to collect. Data stored at MongoDB and managed data at Postgree. Workers, using http, selenium depend on Rule template sepecified, are given the option to use proxies to avoid problems with blocking requests.",
-        "• Realtime metasearch: Quickly search results related to keywords on search systems. Handles blocking requests (Redis cache, autohealing), automatically scaling according to requests received and resources used.",
-        "• Personal Agent web-backend: Part of the Personal Agent project, personalized data mining, using resources from the user's own computer. Personal Agent web is in the application layer to manage the collected data, statistics and all source to collect of user."
+        "Software development experience with backend microservices architecture and containerized applications.",
+        "Backend Development & Architecture:",
+        "• Designed and developed scalable data extraction and processing microservices with containerized deployment",
+        "• Built real-time search and processing systems with automated scaling capabilities and intelligent caching",
+        "• Implemented microservices architecture with MongoDB for unstructured data and PostgreSQL for structured analytics",
+        "• Developed automated worker management systems with queue processing and proxy rotation for high-availability",
+        "• Created web application backends with RESTful APIs and database integration for data management platforms",
+        "• Applied software engineering best practices including code versioning, testing, and continuous integration"
       ]
     },
     {
@@ -289,54 +289,53 @@
     }
   ],
   "skills": [{
-      "category": "programming",
-      "name": "Programming Languages",
-      "items": ["Java", "NodeJS", "Golang", "Python", "C#"],
-      "extraclass": "li25"
-    },
-    {
       "category": "cloud-platforms",
       "name": "Cloud Platforms",
       "items": ["AWS", "Azure", "GCP"],
       "extraclass": "li25"
     },
     {
-      "category": "database",
-      "name": "Database",
-      "items": ["MySQL", "MariaDB", "MongoDB", "SQLite", "Postgres", "Redis", "Kafka"],
+      "category": "iac-tools",
+      "name": "Infrastructure as Code",
+      "items": ["Terraform", "CloudFormation", "Ansible", "Terragrunt", "OpenTofu"],
       "extraclass": "li50"
     },
     {
-      "category": "infras-tools",
-      "name": "Platform",
-      "items": ["Terraform", "Terragrunt", "Packer", "Ansible", "Ceph", "CloudFormation", "Proxmox"],
+      "category": "programming",
+      "name": "Programming Languages",
+      "items": ["Python", "Bash", "Golang", "Java", "NodeJS", "C#"],
       "extraclass": "li25"
-    },
-    {
-      "category": "cicd-tools",
-      "name": "CI/CD",
-      "items": ["Gitlab CI", "ArgoCD", "Jenkins", "TravisCI", "Github Actions", "Azure Pipeline"],
-      "extraclass": "li25"
-    },
-    {
-      "category": "observability-tools",
-      "name": "Observability",
-      "items": ["Promtail-Loki-Grafana", "Elasticsearch-Loki-Grafana", "Prometheus-Thanos", "Jaeger", "DataDog", "NewRelic"],
-      "extraclass": "li50"
-    },
-    {
-      "category": "security",
-      "name": "Security",
-      "items": ["Vault Warden", "Hashicorp Vault", "OPA GateKeeper", "Snyk", "Sonarqube", "Trivy", "ZAP Operator", "Checkpoint CloudGuard", "AWS WAF", "Automation WAF"],
-      "extraclass": "li66"
     },
     {
       "category": "container-tools",
-      "name": "Container Tools",
-      "items": ["Docker", "Kubernetes", "Helm", "KEDA", "Kapenter", "Istio", "Knative"],
+      "name": "Containerization & Orchestration",
+      "items": ["Docker", "Kubernetes", "Helm", "KEDA", "Karpenter", "Istio", "EKS", "GKE"],
       "extraclass": "li33"
+    },
+    {
+      "category": "cicd-tools",
+      "name": "CI/CD & GitOps",
+      "items": ["GitLab CI", "ArgoCD", "Jenkins", "GitHub Actions", "GitOps", "Azure Pipeline"],
+      "extraclass": "li33"
+    },
+    {
+      "category": "devsecops",
+      "name": "DevSecOps & Security",
+      "items": ["HashiCorp Vault", "OPA GateKeeper", "Snyk", "SonarQube", "Trivy", "OWASP ZAP", "SAST/DAST"],
+      "extraclass": "li33"
+    },
+    {
+      "category": "monitoring",
+      "name": "Monitoring & Observability",
+      "items": ["Prometheus", "Grafana", "Loki", "Jaeger", "CloudWatch", "X-Ray", "ELK Stack"],
+      "extraclass": "li50"
+    },
+    {
+      "category": "database",
+      "name": "Databases & Storage",
+      "items": ["PostgreSQL", "MongoDB", "Redis", "MySQL", "DynamoDB", "RDS", "Kafka"],
+      "extraclass": "li50"
     }
-    
   ],
   "certifications": {
     "title": "Certifications",
