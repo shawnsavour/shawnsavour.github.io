@@ -213,18 +213,47 @@ function createPortfoliosHtml(data) {
 //   return `${years} years ${months} months`
 // }
 
+// Function to determine which JSON file to load based on the current route
+function getDataFilePath() {
+  const path = window.location.pathname;
+  
+  // Remove leading and trailing slashes, then split by '/'
+  const pathSegments = path.replace(/^\/+|\/+$/g, '').split('/').filter(segment => segment !== '');
+  
+  // If no path segments or root path, use default
+  if (pathSegments.length === 0 || path === '/') {
+    return 'common/data/shawnsavour.json';
+  }
+  
+  // Use the last segment as the filename
+  const lastSegment = pathSegments[pathSegments.length - 1];
+  return `common/data/${lastSegment}.json`;
+}
+
 window.onload = function () {
-  fetch('common/data/shawnsavour.json').then(response => {
+  const dataFilePath = getDataFilePath();
+  
+  fetch(dataFilePath).then(response => {
+      if (!response.ok) {
+        // If the specific file doesn't exist, fall back to default
+        console.warn(`File ${dataFilePath} not found, falling back to default`);
+        return fetch('common/data/shawnsavour.json');
+      }
+      return response;
+  }).then(response => {
       return response.json()
   }).then(data => {
-      document.querySelector('#perfil').innerHTML = createPerfilsHtml(data)
-      document.querySelector('#contimprimir #section-intro').innerHTML = createIntroHtml(data)
-      document.querySelector('#section-skills').innerHTML = createSkillsHtml(data)
-      document.querySelector('#section-certifications').innerHTML = createCertificationsHtml(data)
-      document.querySelector('#section-portfolios').innerHTML = createPortfoliosHtml(data)
-      document.querySelector('#experiencialaboral').innerHTML = createWorkExperienceHtml(data)
-      document.querySelector('#freelance').innerHTML = createFreelanceExperienceHtml(data)
-      document.querySelector('#section-educations').innerHTML = createEducationHtml(data) 
+      document.title = `Shawn | ${data.title}`;
+      if (data.perfil) document.querySelector('#perfil').innerHTML = createPerfilsHtml(data)
+      if (data.name || data.title) document.querySelector('#contimprimir #section-intro').innerHTML = createIntroHtml(data)
+      if (data.skills) document.querySelector('#section-skills').innerHTML = createSkillsHtml(data)
+      if (data.certifications) document.querySelector('#section-certifications').innerHTML = createCertificationsHtml(data)
+      if (data.portfolios) document.querySelector('#section-portfolios').innerHTML = createPortfoliosHtml(data)
+      if (data.workExperience) {
+        document.querySelector('#experiencialaboral').innerHTML = createWorkExperienceHtml(data)
+        document.querySelector('#freelance').innerHTML = createFreelanceExperienceHtml(data)
+      }
+      if (data.education) document.querySelector('#section-educations').innerHTML = createEducationHtml(data) 
   })
 }
 

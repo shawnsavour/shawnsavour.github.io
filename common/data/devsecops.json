@@ -1,8 +1,8 @@
 {
   "name": "SON (SHAWN) CONG DO",
-  "title": "Expert DevSecOps Engineer",
+  "title": "Senior DevSecOps Engineer",
   "phone": "+84 969 669 531",
-  "perfil": "Expert DevSecOps Engineer with 7+ years of software development experience and 3+ years specialized DevSecOps expertise, building and optimizing Continuous Delivery Pipelines (CDP) and DevSecOps Factory implementations across enterprise environments. Expert in designing end-to-end delivery workflows spanning Continuous Exploration (CE), Continuous Integration (CI), Continuous Deployment (CD), and Release on Demand (RoD) practices. </br>Proven track record implementing comprehensive DevSecOps factories with integrated threat modeling, application security automation, penetration testing frameworks, and continuous security monitoring across hybrid cloud environments (AWS/Azure/GCP). Specialized in SAST/DAST tools integration, payload encryption, SSL pinning, and automated security compliance frameworks that consistently deliver higher quality software systems with improved project estimation accuracy. </br>Strong technical leadership experience mentoring DevSecOps teams, driving organic process improvements, and building trust between development and operations teams while maximizing business value through adaptive delivery practices and risk mitigation strategies.",
+  "perfil": "Senior DevSecOps Engineer with 7+ years of experience, specializing in designing and implementing secure, compliant cloud solutions for the financial industry. Expert in cloud technology selection (AWS, Azure, GCP), risk management, and security compliance. Proven ability to deploy robust cloud infrastructure, conduct continuous threat assessments, and ensure adherence to regulatory policies. Passionate about building resilient systems that mitigate risk and align with business goals.",
   "portfolios": [{
       "type": "Credly",
       "name": "Credly Badge",
@@ -23,8 +23,8 @@
     },
     {
       "type": "Website",
-      "name": "ShawnSavour.site",
-      "link": "https://shawnsavour.site",
+      "name": "ShawnSavour.github.io",
+      "link": "https://shawnsavour.github.io/devsecops",
       "icon": "bi bi-globe"
     }
   ],
@@ -37,7 +37,7 @@
       "company": true,
       "position": "Senior DevOps Engineer",
       "employer": "VMO Group - An Alten company",
-      "date": "Aug 2022 - Present · 3 yrs",
+      "date": "Aug 2022 - Present · 3 yrs 2 mos",
       "type": "Work",
       "description": [
         "VMO Group delivers cutting-edge software development and IT services to Fortune 500 clients across diverse industries, driving digital transformation at scale.",
@@ -49,19 +49,15 @@
       "id": 1,
       "position": "Senior DevOps Engineer",
       "employer": "VMO Group - An Alten company",
-      "date": "Aug 2022 - Present · 3 yrs",
+      "date": "Aug 2022 - Present · 3 yrs 2 mos",
       "type": "Work",
       "description": [
-        "Lead enterprise DevSecOps transformation as Senior DevOps Engineer, building comprehensive Continuous Delivery Pipelines (CDP) and DevSecOps Factory implementations that serve multiple delivery units across the organization.",
-        "<b>Continuous Delivery Pipeline (CDP) Leadership:</b>",
-        "• <b>End-to-End CDP Design:</b> Built and optimized complete Continuous Delivery Pipelines addressing process time, lead time, delay time optimization, achieving 70% reduction in deployment time and 95% accuracy in delivery workflows",
-        "• <b>Continuous Integration (CI):</b> Implemented comprehensive CI practices taking features from Program Backlog through full system integration, automated testing, and staging validation using GitLab CI with integrated security scanning",
-        "• <b>Continuous Deployment (CD):</b> Designed automated deployment workflows from staging to production environments with zero-downtime deployment capabilities and automated rollback mechanisms",
-        "• <b>Release on Demand (RoD):</b> Built flexible release management systems enabling value delivery based on market and business needs, supporting both immediate and staggered release strategies",
-        "• <b>DevSecOps Factory:</b> Implemented comprehensive DevSecOps factory with integrated threat modeling, application security automation, and continuous security monitoring across all pipeline stages",
-        "• <b>Infrastructure as Code:</b> Applied IaC using Terraform and GitOps practices for declarative infrastructure management across dev, staging, and production environments with 99.9% uptime",
-        "• <b>Security Automation:</b> Integrated SAST/DAST tools, payload encryption, and automated security compliance frameworks ensuring continuous security throughout the delivery pipeline",
-        "• <b>Team Leadership & Process Improvement:</b> Mentored engineering teams on DevSecOps best practices, driving organic process improvements and building trust between development and operations teams"
+        "Led enterprise DevSecOps transformation, focusing on building secure and compliant Continuous Delivery Pipelines (CDP) and DevSecOps Factories for multiple delivery units.",
+        "<b>Key Achievements:</b>",
+        "• Designed end-to-end CDPs, reducing deployment time by 70% and improving delivery accuracy to 95%.",
+        "• Implemented a comprehensive DevSecOps factory with integrated threat modeling and continuous security monitoring.",
+        "• Managed Infrastructure as Code (IaC) using Terraform and GitOps, achieving 99.9% uptime.",
+        "• Integrated SAST/DAST tools and automated security compliance frameworks."
       ]
     },
     {
@@ -69,19 +65,15 @@
       "parent": 1,
       "position": "Platform Leader",
       "employer": "Zuellig Pharma",
-      "date": "Oct 2023 - Present · 1 yr 10 mos",
+      "date": "Oct 2023 - Present · 2 yrs",
       "type": "Work",
       "description": [
-        "Lead platform engineering and infrastructure modernization for Asia's largest healthcare services provider, managing cloud migration projects across 16 markets serving 200,000+ medical facilities.",
-        "<b>Technical Leadership:</b>",
-        "• <b>Cloud Architecture:</b> Lead technical design and implementation of secure, scalable cloud infrastructure using Infrastructure as Code",
-        "• <b>Hybrid Cloud Networks:</b> Design and deploy hybrid cloud network environments using Hub-and-Spoke topology for multi-region deployment",
-        "• <b>DevOps Pipelines:</b> Design and manage CI/CD pipelines with GitOps methodology, enabling automated infrastructure provisioning and application deployment",
-        "• <b>Cloud-Native Systems:</b> Implement cloud-native microservices architecture using Kubernetes (GKE) with security best practices and compliance frameworks",
-        "• <b>Database Infrastructure:</b> Build infrastructure automation frameworks for database management (CloudSQL) with Workload Identity authentication",
-        "• <b>Team Development:</b> Mentor and lead engineering teams in DevOps best practices, cloud migration strategies, and infrastructure automation, driving 60% improvement in deployment velocity",
-        "• <b>Cross-Team Collaboration:</b> Work with product, security, and business teams to identify and solve complex infrastructure and deployment challenges",
-        "• <b>Innovation Projects:</b> Lead rapid prototyping and proof-of-concept development for cloud migration and modernization projects, reducing project validation time by 80%"
+        "Led platform engineering for a major healthcare provider, focusing on cloud migration and infrastructure modernization across 16 markets. My role centered on designing secure, scalable, and compliant cloud solutions.",
+        "<b>Key Achievements:</b>",
+        "• Led the technical design of secure cloud infrastructure using Infrastructure as Code (IaC).",
+        "• Designed and deployed hybrid cloud networks for multi-region deployments.",
+        "• Managed CI/CD pipelines with GitOps for automated infrastructure and application deployment.",
+        "• Implemented a cloud-native microservices architecture on Kubernetes (GKE) with a strong focus on security and compliance."
       ]
     },
     {
@@ -91,16 +83,12 @@
       "date": "Jan 2023 - Jul 2024 · 1 yr 2 mos",
       "type": "Freelance",
       "description": [
-        "Led comprehensive DevSecOps transformation and Continuous Delivery Pipeline implementation for Southeast Asia's leading financial institution, delivering enterprise banking systems migration with integrated security automation.",
-        "<b>DevSecOps Factory Implementation:</b>",
-        "• <b>Continuous Delivery Pipeline (CDP):</b> Designed and deployed enterprise-grade CDP supporting 5,000+ banking professionals, optimizing process time, lead time, and delay time with 99.9% deployment success rate and 95% accuracy metrics",
-        "• <b>Continuous Exploration (CE):</b> Implemented market analysis and customer need identification processes, defining and prioritizing Program Backlog activities for financial service features and architecture modifications",
-        "• <b>Continuous Integration (CI):</b> Built comprehensive CI workflows taking features from Program Backlog through full system integration, automated testing, and staging validation with integrated SAST/DAST security scanning",
-        "• <b>Continuous Deployment (CD):</b> Implemented automated deployment from staging to production with zero-downtime capabilities using AWS EKS, Istio service mesh, and microservices architecture",
-        "• <b>Release on Demand (RoD):</b> Developed flexible release management enabling value delivery based on regulatory requirements and business needs, supporting both immediate and compliance-driven release strategies",
-        "• <b>DevSecOps Security Integration:</b> Built comprehensive threat modeling automation, application security frameworks, and continuous security monitoring ensuring PCI-DSS compliance and regulatory adherence",
-        "• <b>Penetration Testing Automation:</b> Integrated automated penetration testing workflows with OWASP ZAP, security scanning, and vulnerability assessment in the continuous delivery pipeline",
-        "• <b>Infrastructure Automation:</b> Applied Infrastructure as Code using Terraform and CloudFormation for multi-account landing zone deployment with automated security compliance frameworks"
+        "Led a DevSecOps transformation for a leading financial institution, focusing on designing and implementing secure, compliant, and risk-assessed cloud solutions. My role involved analyzing business needs and selecting appropriate cloud technologies to meet strict financial regulations.",
+        "<b>Key Achievements:</b>",
+        "• Designed and deployed enterprise-grade, cloud-native solutions on AWS, ensuring compliance with security laws and policies.",
+        "• Identified and minimized operational risks through continuous security assessments.",
+        "• Worked with partners to ensure the safe and secure deployment of cloud solutions.",
+        "• Ensured compliance with all regulatory requirements and service quality commitments."
       ]
     },
     {
@@ -110,16 +98,12 @@
       "date": "Feb 2023 - May 2024 · 1 yr 4 mos",
       "type": "Freelance",
       "description": [
-        "Designed and implemented comprehensive DevSecOps Factory infrastructure with automated Continuous Delivery Pipeline and integrated security frameworks.",
-        "<b>DevSecOps Factory & Security Automation:</b>",
-        "• <b>DevSecOps Factory Implementation:</b> Built comprehensive DevSecOps factory with automated security scanning, threat modeling, and continuous security monitoring integrated into CI/CD pipelines using GitLab CI/ArgoCD",
-        "• <b>Continuous Delivery Pipeline (CDP):</b> Designed end-to-end CDP with optimized process time and lead time metrics, enabling seamless feature delivery from ideation to production release",
-        "• <b>Application Security Automation:</b> Implemented automated application security with SAST/DAST tools integration, payload encryption, SSL pinning, and code quality analysis throughout the delivery pipeline",
-        "• <b>Infrastructure as Code (IaC):</b> Built comprehensive IaC frameworks using Terraform for consistent, reproducible infrastructure deployment with automated security compliance validation",
-        "• <b>Container Security:</b> Designed secure container orchestration with Kubernetes, implementing KEDA and Karpenter for intelligent auto-scaling with integrated security policies",
-        "• <b>Penetration Testing Integration:</b> Established automated penetration testing workflows with security vulnerability assessment and continuous threat detection capabilities",
-        "• <b>Observability & Security Monitoring:</b> Implemented comprehensive monitoring stack (Promtail, Loki, Grafana, Prometheus, Jaeger) with security event correlation and incident response automation",
-        "• <b>DevSecOps Tools Integration:</b> Automated security compliance using HashiCorp Vault, OPA GateKeeper, and AWS WAF for comprehensive application protection and threat mitigation"
+        "Designed and implemented a comprehensive DevSecOps Factory with an automated Continuous Delivery Pipeline. My focus was on integrating security throughout the development lifecycle.",
+        "<b>Key Achievements:</b>",
+        "• Built a DevSecOps factory with automated security scanning, threat modeling, and continuous monitoring.",
+        "• Implemented automated application security with SAST/DAST tools, payload encryption, and SSL pinning.",
+        "• Built a comprehensive IaC framework using Terraform for consistent and secure infrastructure deployment.",
+        "• Implemented a comprehensive monitoring stack for security event correlation and incident response."
       ]
     },
     {
@@ -265,32 +249,32 @@
     {
       "category": "iac-tools",
       "name": "Platforms & IaC Tools",
-      "items": ["Terraform", "CloudFormation", "Ansible", "Terragrunt", "OpenTofu", "Backstage"],
+      "items": ["Terraform", "CloudFormation", "Ansible", "Terragrunt", "Backstage"],
       "extraclass": "li50"
     },
     {
       "category": "programming",
       "name": "Programming Languages",
-      "items": ["Python", "Bash", "Golang", "Java", "NodeJS", "C#"],
+      "items": ["Python", "Golang", "Java", "NodeJS", "C#", "Bash"],
       "extraclass": "li25"
     },
     {
       "category": "container-tools",
       "name": "Containerization & Orchestration",
       "items": ["Docker", "Kubernetes", "Helm", "KEDA", "Karpenter", "Istio", "EKS", "GKE"],
-      "extraclass": "li25"
+      "extraclass": "li33"
     },
     {
       "category": "cicd-tools",
       "name": "CI/CD & GitOps",
       "items": ["GitLab CI", "ArgoCD", "Jenkins", "GitHub Actions", "GitOps", "Azure Pipeline"],
-      "extraclass": "li25"
+      "extraclass": "li33"
     },
     {
       "category": "devsecops",
       "name": "DevSecOps & Security",
-      "items": ["HashiCorp Vault", "OPA GateKeeper", "SonarQube", "Trivy", "OWASP ZAP", "SAST/DAST", "SCA", "Snyk", "SSL Pinning", "Payload Encryption", "Threat Modeling", "Penetration Testing"],
-      "extraclass": "li50"
+      "items": ["HashiCorp Vault", "OPA GateKeeper", "SonarQube", "Trivy", "OWASP ZAP", "SAST/DAST", "SCA", "Snyk"],
+      "extraclass": "li33"
     },
     {
       "category": "monitoring",
@@ -340,7 +324,7 @@
         "link": "https://ude.my/UC-6dbad681-7f62-4160-b2f0-b3890cf63984/"
       },
       {
-        "name": "APTIS - C level (CERF)",
+        "name": "APTIS - C level (CERF) - 7.5 Ietls equivalent",
         "image": "common/img/BC-icon.jpg",
         "link": "#"
       }
