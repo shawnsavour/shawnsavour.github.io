@@ -213,21 +213,17 @@ function createPortfoliosHtml(data) {
 //   return `${years} years ${months} months`
 // }
 
-// Function to determine which JSON file to load based on the current route
+// Function to determine which JSON file to load based on a URL parameter
 function getDataFilePath() {
-  const path = window.location.pathname;
+  const urlParams = new URLSearchParams(window.location.search);
+  const resumeName = urlParams.get('resume');
   
-  // Remove leading and trailing slashes, then split by '/'
-  const pathSegments = path.replace(/^\/+|\/+$/g, '').split('/').filter(segment => segment !== '');
-  
-  // If no path segments or root path, use default
-  if (pathSegments.length === 0 || path === '/') {
-    return 'common/data/shawnsavour.json';
+  if (resumeName) {
+    return `common/data/${resumeName}.json`;
   }
   
-  // Use the last segment as the filename
-  const lastSegment = pathSegments[pathSegments.length - 1];
-  return `common/data/${lastSegment}.json`;
+  // Fallback to default if no 'resume' parameter is found
+  return 'common/data/shawnsavour.json';
 }
 
 window.onload = function () {
