@@ -234,6 +234,149 @@ img {
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+
+/* devanagari */
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLJj9Z11lFc-K.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLJj9Z1JlFc-K.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+
+/* latin */
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLJj9Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* devanagari */
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+
+/* latin */
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* devanagari */
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 1000;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLJj9Z11lFc-K.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 1000;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLJj9Z1JlFc-K.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+
+/* latin */
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 1000;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLJj9Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* When a container is loading (aria-busy), hide real content so only skeletons show */
+[aria-busy="true"] a,
+[aria-busy="true"] p,
+[aria-busy="true"] .texto,
+[aria-busy="true"] .titulo1,
+[aria-busy="true"] .titulo2,
+[aria-busy="true"] .titulo3,
+[aria-busy="true"] i {
+  color: transparent !important;
+  text-shadow: none !important;
+  background: transparent !important;
+}
+
+[aria-busy="true"] a {
+  pointer-events: none !important;
+  text-decoration: none !important;
+}
+
+[aria-busy="true"] img,
+[aria-busy="true"] svg {
+  opacity: 0 !important;
+}
+
+/* Tweak skeleton tone slightly darker so it doesn't look like pure white on dark bg */
+.skeleton {
+  background: rgba(255,255,255, .10);
+}
+.skeleton::after {
+  background: linear-gradient(90deg,
+    rgba(255,255,255,0) 0%,
+    rgba(255,255,255,.16) 50%,
+    rgba(255,255,255,0) 100%);
+}
+
 body,
 html {
     background: #efefef;
@@ -1498,6 +1641,10 @@ input {
 
 .print-setting *:hover {
     all:unset!important;
+}
+
+.print-setting {
+    font-family: "Hiragino Sans", "Poppins", sans-serif;
 }
 
 .print-setting #imprimir,
@@ -3596,15 +3743,31 @@ a {
     text-decoration: none;
 }
 
+/* Skeleton size and width utilities for better alignment with real text */
+.skeleton.sk-title { height: 1.6em; margin: .35em 0; border-radius: .3em; }
+.skeleton.sk-subtitle { height: 1.2em; margin: .3em 0; border-radius: .3em; }
+.skeleton.sk-text { height: 1em; margin: .25em 0; border-radius: .25em; }
+.skeleton.sk-block { height: 3.2em; border-radius: .5em; }
+
+.sk-w-25 { width: 25%; }
+.sk-w-30 { width: 30%; }
+.sk-w-40 { width: 40%; }
+.sk-w-50 { width: 50%; }
+.sk-w-55 { width: 55%; }
+.sk-w-60 { width: 60%; }
+.sk-w-70 { width: 70%; }
+.sk-w-80 { width: 80%; }
+.sk-w-90 { width: 90%; }
+
+/* Slight spacing helpers */
+.sk-mt-sm { margin-top: .6rem; }
+.sk-inline { display: inline-block; }
 * {
     -webkit-print-color-adjust: exact !important;
     /* Chrome, Safari */
     color-adjust: exact !important;
     /*Firefox*/
 }
-
-
-
 
 .fab {
     z-index: 9999;
@@ -3669,46 +3832,25 @@ a {
     -webkit-transform: translateY(15%);
 }
 
-{{/* disable all hover when body have class print-setting  */}}
-.print-setting * {
-    pointer-events: none;
+/* Fix: prevent .contact-top div and .contacto_item div from forcing white backgrounds during loading */
+[aria-busy="true"] .contact-top,
+[aria-busy="true"] .contacto_item {
+  background: transparent !important;
 }
-
-@media print {
-    @page {
-        size: a4;
-        margin-top: 2cm;
-        margin-bottom: 2cm;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    @page :first {
-        margin-top: 0;
-    }   
+[aria-busy="true"] .contact-top div:not(.skeleton):not(.skeleton-card),
+[aria-busy="true"] .contacto_item div:not(.skeleton):not(.skeleton-card) {
+  background: transparent !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
 }
-
-.print-setting .break-print {
-    break-inside: avoid!important;
-    page-break-inside: avoid!important;
+/* Ensure skeletons keep their intended tone even if broad rules target divs */
+[aria-busy="true"] .skeleton {
+  background: rgba(255,255,255, .10) !important;
 }
-
-.print-setting .break-wrapper {
-    display: block!important;
-}
-
-.print-setting #imprimir,
-.print-setting #imprimir2 {
-    box-shadow: none;
-}
-
-html:has(body.print-setting) {
-    background: #fff;
-    transition: none;
-}
-
-body.print-setting {
-    background: #fff;
-    transition: none;
+[aria-busy="true"] .skeleton::after {
+  background: linear-gradient(90deg,
+    rgba(255,255,255,0) 0%,
+    rgba(255,255,255,.16) 50%,
+    rgba(255,255,255,0) 100%) !important;
 }
 

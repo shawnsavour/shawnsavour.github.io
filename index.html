@@ -30,7 +30,6 @@
 <!--    <link rel="stylesheet" href="/common/css/CVv0.2.css">-->
     <link rel="stylesheet" href="common/css/CV.v1.2.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="mask-icon" href="https://www.resumemaker.online/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <script src="common/js/shawnsavour.js"></script>
@@ -65,18 +64,57 @@
         <!-- pequeno and grande -->
         <div id="imprimir" class="template1 pequeno">
             <div id="contimprimir" class="break-wrapper" style="font-family: Poppins;opacity: 1;transform: scale(1);margin-top: -25px;">
-                <ul id="section-intro">
+                <ul id="section-intro" aria-busy="true">
+                    <li class="li100" id="nombre_cont">
+                        <div><span></span>
+                            <div class="centradovertical" id="centrado_nombre">
+                                <div class="skeleton sk-title sk-w-40"></div>
+                                <div class="skeleton sk-subtitle sk-w-55"></div>
+                                <div class="contact-top sk-mt-sm">
+                                    <div class="skeleton sk-text sk-w-70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
                 <ul>
                     <li class="li100" id="datospersonales">
                         <div id="section-description">
-                            <div id="perfil">
-                                <p class="titulo1" contenteditable="false" placeholder="Profile" style="display: none;"></p>
+                            <div id="perfil" aria-busy="true">
+                                <div class="skeleton sk-text sk-w-90"></div>
+                                <div class="skeleton sk-text sk-w-85"></div>
+                                <div class="skeleton sk-text sk-w-80"></div>
                             </div>
                         </div>
-                        <div id="section-portfolios" class="inline-block-holder li20"></div>
-                        <div id="section-certifications" class="inline-block-holder li80"></div>
-                        <div id="section-skills" class="inline-block-holder"></div>
+                        <div id="section-portfolios" class="inline-block-holder li20" aria-busy="true">
+                            <div class="contacto_item" style="display:block;">
+                                <div class="skeleton sk-text sk-w-90"></div>
+                            </div>
+                            <div class="contacto_item" style="display:block;">
+                                <div class="skeleton sk-text sk-w-80"></div>
+                            </div>
+                        </div>
+                        <div id="section-certifications" class="inline-block-holder li80" aria-busy="true">
+                            <div class="skeleton sk-title sk-w-50" style="margin-bottom: .8rem;"></div>
+                            <div class="cuadro myset ui-state-default skeleton-card sk-inline" style="margin-right: .8rem;">
+                                <div class="skeleton sk-block" style="width: 4rem; border-radius: .6rem;"></div>
+                                <div class="skeleton sk-text sk-w-50" style="width: 10rem;"></div>
+                            </div>
+                            <div class="cuadro myset ui-state-default skeleton-card sk-inline" style="margin-right: .8rem;">
+                                <div class="skeleton sk-block" style="width: 4rem; border-radius: .6rem;"></div>
+                                <div class="skeleton sk-text sk-w-40" style="width: 8rem;"></div>
+                            </div>
+                        </div>
+                        <div id="section-skills" class="inline-block-holder" aria-busy="true">
+                            <div class="inline-block-holder">
+                                <div class="skeleton sk-subtitle sk-w-30"></div>
+                                <div class="skeleton sk-block sk-mt-sm"></div>
+                            </div>
+                            <div class="inline-block-holder">
+                                <div class="skeleton sk-subtitle sk-w-25"></div>
+                                <div class="skeleton sk-block sk-mt-sm"></div>
+                            </div>
+                        </div>
                         <!-- <p class="titulo1 " contenteditable="false" placeholder="Custom text">Scan me</p>
                         <div id="QR-code">
                             <a href="/" target="_blank">');
@@ -95,14 +133,56 @@
                                placeholder="Professional experience" style="display: block;">
                                 <a href="https://www.linkedin.com/in/shawndo/details/experience/" title="Click to show more details and experiences on Linkedin" target="_blank">Work Experience &nbsp; <i class="bi bi-arrow-right-circle-fill red-color" style="vertical-align: top"></i></a>
                             </p>
-                            <div class="sortable experiencialaboral break-wrapper" id="experiencialaboral" ></div>
+                            <div class="sortable experiencialaboral break-wrapper" id="experiencialaboral" aria-busy="true">
+                                <div class="cuadro ui-state-default skeleton-card">
+                                    <div style="position:relative">
+                                        <div class="timeline_bola color_estrellas" style="background: rgba(255,255,255,.25);"></div>
+                                        <div class="skeleton skeleton-line" style="width: 55%; height: 2rem;"></div>
+                                    </div>
+                                    <div class="skeleton skeleton-line" style="width: 40%;"></div>
+                                    <div class="skeleton skeleton-line" style="width: 30%;"></div>
+                                    <div class="skeleton skeleton-block" style="height: 4.2rem;"></div>
+                                    <div class="timeline_linea"></div>
+                                </div>
+                                <div class="cuadro ui-state-default skeleton-card">
+                                    <div style="position:relative">
+                                        <div class="timeline_bola color_estrellas" style="background: rgba(255,255,255,.25);"></div>
+                                        <div class="skeleton skeleton-line" style="width: 55%; height: 2rem;"></div>
+                                    </div>
+                                    <div class="skeleton skeleton-line" style="width: 40%;"></div>
+                                    <div class="skeleton skeleton-line" style="width: 30%;"></div>
+                                    <div class="skeleton skeleton-block" style="height: 4.2rem;"></div>
+                                    <div class="timeline_linea"></div>
+                                </div>
+                            </div>
                             <p class="titulo1" id="titulo_laboral" contenteditable="false"
                                placeholder="Professional experience" style="display: block;">
                                 <a href="https://www.linkedin.com/in/shawndo/details/experience/" title="Click to show more details and experiences on Linkedin" target="_blank">Freelance &nbsp; <i class="bi bi-arrow-right-circle-fill red-color" style="vertical-align: top"></i></a>
                             </p>
-                            <div class="sortable freelance break-wrapper" id="freelance" ></div>
+                            <div class="sortable freelance break-wrapper" id="freelance" aria-busy="true">
+                                <div class="cuadro ui-state-default skeleton-card">
+                                    <div style="position:relative">
+                                        <div class="timeline_bola color_estrellas" style="background: rgba(255,255,255,.25);"></div>
+                                        <div class="skeleton skeleton-line" style="width: 55%; height: 2rem;"></div>
+                                    </div>
+                                    <div class="skeleton skeleton-line" style="width: 40%;"></div>
+                                    <div class="skeleton skeleton-line" style="width: 30%;"></div>
+                                    <div class="skeleton skeleton-block" style="height: 4.2rem;"></div>
+                                    <div class="timeline_linea"></div>
+                                </div>
+                            </div>
                             <p class="titulo1 education_title" contenteditable="false" placeholder="Education">EDUCATION</p>
-                            <div class="sortable formacionacademica"id="section-educations"></div>
+                            <div class="sortable formacionacademica" id="section-educations" aria-busy="true">
+                                <div class="cuadro ui-state-default skeleton-card">
+                                    <div style="position:relative">
+                                        <div class="timeline_bola color_estrellas" style="background: rgba(255,255,255,.25);"></div>
+                                        <div class="skeleton skeleton-line" style="width: 50%; height: 2rem;"></div>
+                                    </div>
+                                    <div class="skeleton skeleton-line" style="width: 60%;"></div>
+                                    <div class="skeleton skeleton-line" style="width: 30%;"></div>
+                                    <div class="timeline_linea"></div>
+                                </div>
+                            </div>
                         </div>
                         
                         <div style="clear:both"></div>

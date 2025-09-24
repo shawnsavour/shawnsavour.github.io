@@ -205,13 +205,57 @@ function createPortfoliosHtml(data) {
   `
 }
 
-// function getDurration(start, end) {
-//   const startDate = new Date(start)
-//   const endDate = new Date(end)
-//   const years = endDate.getFullYear() - startDate.getFullYear()
-//   const months = endDate.getMonth() - startDate.getMonth()
-//   return `${years} years ${months} months`
-// }
+function createWorkExperienceSkeleton(count = 2) {
+  return Array.from({ length: count }).map(() => `
+    <div class="cuadro ui-state-default skeleton-card">
+      <div style="position:relative">
+        <div class="timeline_bola color_estrellas" style="background: rgba(255,255,255,.25);"></div>
+        <div class="skeleton skeleton-line" style="width: 55%; height: 2rem;"></div>
+      </div>
+      <div class="skeleton skeleton-line" style="width: 40%;"></div>
+      <div class="skeleton skeleton-line" style="width: 30%;"></div>
+      <div class="skeleton skeleton-block" style="height: 4.2rem;"></div>
+      <div class="timeline_linea"></div>
+    </div>
+  `).join('');
+}
+
+function createFreelanceSkeleton(count = 1) {
+  return createWorkExperienceSkeleton(count);
+}
+
+function createEducationSkeleton(count = 1) {
+  return Array.from({ length: count }).map(() => `
+    <div class="cuadro ui-state-default skeleton-card">
+      <div style="position:relative">
+        <div class="timeline_bola color_estrellas" style="background: rgba(255,255,255,.25);"></div>
+        <div class="skeleton skeleton-line" style="width: 50%; height: 2rem;"></div>
+      </div>
+      <div class="skeleton skeleton-line" style="width: 60%;"></div>
+      <div class="skeleton skeleton-line" style="width: 30%;"></div>
+      <div class="timeline_linea"></div>
+    </div>
+  `).join('');
+}
+
+// Show skeletons before loading data
+function showSectionSkeletons() {
+  const exp = document.querySelector('#experiencialaboral');
+  const free = document.querySelector('#freelance');
+  const edu = document.querySelector('#section-educations');
+  if (exp) {
+    exp.setAttribute('aria-busy', 'true');
+    exp.innerHTML = createWorkExperienceSkeleton(2);
+  }
+  if (free) {
+    free.setAttribute('aria-busy', 'true');
+    free.innerHTML = createFreelanceSkeleton(1);
+  }
+  if (edu) {
+    edu.setAttribute('aria-busy', 'true');
+    edu.innerHTML = createEducationSkeleton(1);
+  }
+}
 
 // Function to determine which JSON file to load based on a URL parameter
 function getDataFilePath() {
@@ -240,16 +284,52 @@ window.onload = function () {
       return response.json()
   }).then(data => {
       document.title = `Shawn | ${data.title}`;
-      if (data.perfil) document.querySelector('#perfil').innerHTML = createPerfilsHtml(data)
-      if (data.name || data.title) document.querySelector('#contimprimir #section-intro').innerHTML = createIntroHtml(data)
-      if (data.skills) document.querySelector('#section-skills').innerHTML = createSkillsHtml(data)
-      if (data.certifications) document.querySelector('#section-certifications').innerHTML = createCertificationsHtml(data)
-      if (data.portfolios) document.querySelector('#section-portfolios').innerHTML = createPortfoliosHtml(data)
-      if (data.workExperience) {
-        document.querySelector('#experiencialaboral').innerHTML = createWorkExperienceHtml(data)
-        document.querySelector('#freelance').innerHTML = createFreelanceExperienceHtml(data)
+      if (data.name || data.title) {
+        const intro = document.querySelector('#contimprimir #section-intro');
+        intro.innerHTML = createIntroHtml(data);
+        intro.removeAttribute('aria-busy');
       }
-      if (data.education) document.querySelector('#section-educations').innerHTML = createEducationHtml(data) 
+      if (data.perfil) {
+        const perfil = document.querySelector('#perfil');
+        perfil.innerHTML = createPerfilsHtml(data);
+        perfil.removeAttribute('aria-busy');
+      }
+      if (data.skills) {
+        const skills = document.querySelector('#section-skills');
+        skills.innerHTML = createSkillsHtml(data);
+        skills.removeAttribute('aria-busy');
+      }
+      if (data.certifications) {
+        const certs = document.querySelector('#section-certifications');
+        certs.innerHTML = createCertificationsHtml(data);
+        certs.removeAttribute('aria-busy');
+      }
+      if (data.portfolios) {
+        const ports = document.querySelector('#section-portfolios');
+        ports.innerHTML = createPortfoliosHtml(data);
+        ports.removeAttribute('aria-busy');
+      }
+      if (data.workExperience) {
+        const exp = document.querySelector('#experiencialaboral');
+        const free = document.querySelector('#freelance');
+        exp.innerHTML = createWorkExperienceHtml(data)
+        free.innerHTML = createFreelanceExperienceHtml(data)
+        exp.removeAttribute('aria-busy');
+        free.removeAttribute('aria-busy');
+      }
+      if (data.education) {
+        const edu = document.querySelector('#section-educations');
+        edu.innerHTML = createEducationHtml(data)
+        edu.removeAttribute('aria-busy');
+      }
+  }).catch(err => {
+      console.error('Failed to load resume data', err);
+      const exp = document.querySelector('#experiencialaboral');
+      const free = document.querySelector('#freelance');
+      const edu = document.querySelector('#section-educations');
+      if (exp) exp.innerHTML = '<p class="texto">Failed to load work experience.</p>';
+      if (free) free.innerHTML = '<p class="texto">Failed to load freelance items.</p>';
+      if (edu) edu.innerHTML = '<p class="texto">Failed to load education.</p>';
   })
 }
 
@@ -265,4 +345,4 @@ function printDiv() {
       document.body.innerHTML = originalContents;
       document.body.classList.remove('print-setting');
   }, 5000);
-} 
+}
