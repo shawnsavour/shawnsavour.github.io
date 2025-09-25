@@ -1644,13 +1644,14 @@ input {
 }
 
 .print-setting {
-    font-family: "Hiragino Sans", "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .print-setting #imprimir,
 .print-setting #imprimir2 {
     background: #fff;
     color: #000!important;
+    box-shadow: none;
 }
 
 .print-setting #imprimir table {
@@ -3767,6 +3768,38 @@ a {
     /* Chrome, Safari */
     color-adjust: exact !important;
     /*Firefox*/
+}
+
+.print-setting * {
+    pointer-events: none;
+}
+
+@media print {
+    @page {
+        size: a4;
+        margin-top: 2cm;
+        margin-bottom: 2cm;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    @page :first {
+        margin-top: 0;
+    }   
+}
+
+.print-setting .break-print {
+    break-inside: avoid!important;
+    page-break-inside: avoid!important;
+}
+
+.print-setting .break-wrapper {
+    display: block!important;
+}
+
+html:has(body.print-setting) {
+    background: #fff;
+    transition: none;
 }
 
 .fab {
